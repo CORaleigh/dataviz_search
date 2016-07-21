@@ -1,7 +1,7 @@
 # dataviz_search
 Prototype for applying visualizations as responses for common search requests
 
-Project is simple in concept. Match open data up with visualizations designed to respond to the most common search terms on the City of Raleigh's website. 
+Project is simple in concept. Match open data up with visualizations designed to respond to the most common search terms on the City of Raleigh's website. For example, search "weather" in google search bar and check out the response.
 
 As part of the [Knight Foundation Prototype](http://www.knightfoundation.org/grants/201551998/) project, we are going to apply human-centered designs to the most common search stories to inform our visualizations. 
 
