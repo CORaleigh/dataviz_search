@@ -7,9 +7,9 @@ As part of the [Knight Foundation Prototype](http://www.knightfoundation.org/gra
 
 **v1 Technology Stack**
 
-* Google Search Appliance - [OneBox Module](https://www.google.com/support/enterprise/static/gsa/docs/admin/72/gsa_doc_set/oneboxguide/oneboxguide.html) - XLS Template
+* Google Search Appliance - [OneBox Module](https://www.google.com/support/enterprise/static/gsa/docs/admin/72/gsa_doc_set/oneboxguide/oneboxguide.html) - XLS Templates (Front End for Search Results and OneBox Module Specific)
 * Socrata [Data Portal](https://data.raleighnc.gov/) - Use APIs for source of data
-* Red Hat [JBoss Fuse](http://developers.redhat.com/products/fuse/overview/?referrer=jbd) to translate data from Socrata to XML template for Google OneBox to improve load times
+* Red Hat [JBoss Fuse](http://developers.redhat.com/products/fuse/overview/?referrer=jbd) to translate data from Socrata to XML template as a URL source for the Google OneBox External Provider to improve load times
 * [Alfresc0 CMS](https://www.alfresco.com/)
 * Visualization Widgets (TBD)
 
