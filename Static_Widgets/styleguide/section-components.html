@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]>            <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IEMobile 7]>          <html class="no-js iem7" lang="en"> <![endif]-->
+<!--[if (IE 7)&(!IEMobile)]>  <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>                <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Style Guide</title>
+
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="css/styleguide.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body id="kss-node">
+
+  <div class="kss-toolbar">
+    <button id="kss-menu-toggle">Menu</button>
+
+    <div class="switch-field">
+      <input type="radio" id="switch_3_left" name="switch_3" value="phone"/>
+      <label for="switch_3_left">Phone</label>
+      <input type="radio" id="switch_3_center" name="switch_3" value="tablet" />
+      <label for="switch_3_center">Tablet</label>
+      <input type="radio" id="switch_3_right" name="switch_3" value="desktop" checked/>
+      <label for="switch_3_right">Desktop</label>
+    </div>
+  </div>
+
+<div class="kss-sidebar kss-style">
+  <header class="kss-header">
+    <h1 class="kss-doc-title">Style Guide</h1>
+  </header>
+  <nav class="kss-nav">
+    <ul class="kss-nav__menu">
+      <li class="kss-nav__menu-item">
+        <a href="./">
+          <span class="kss-nav__ref">0</span
+          ><span class="kss-nav__name">Overview</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-branding.html">
+          <span class="kss-nav__ref">1</span
+          ><span class="kss-nav__name">Branding</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-components.html">
+          <span class="kss-nav__ref">2</span
+          ><span class="kss-nav__name">Components</span>
+        </a>
+        <ul class="kss-nav__menu-child">
+            <li class="kss-nav__menu-item">
+              <a href="section-components.html#kssref-components-alerts">
+                <span class="kss-nav__ref ">2.1</span
+                ><span class="kss-nav__name">Alerts</span>
+              </a>
+            </li>
+        </ul>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-elements.html">
+          <span class="kss-nav__ref">3</span
+          ><span class="kss-nav__name">Elements</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-layouts.html">
+          <span class="kss-nav__ref">4</span
+          ><span class="kss-nav__name">Layouts</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<article role="main" class="kss-main">
+
+      <div     id="kssref-components" class="kss-section kss-section--depth-1">
+
+    <div class="kss-style">
+      <h1 class="kss-title kss-title--level-1">
+        <a class="kss-title__permalink" href="#kssref-components">
+          <span class="kss-title__ref">
+              2
+            <span class="kss-title__permalink-hash">
+                #Components
+            </span>
+          </span>
+          Components
+        </a>
+      </h1>
+
+
+    </div>
+
+
+      </div>
+      <section id="kssref-components-alerts" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-components-alerts">
+          <span class="kss-title__ref">
+              2.1
+            <span class="kss-title__permalink-hash">
+                #Components - Alerts
+            </span>
+          </span>
+          Alerts
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>Notifications provide lightweight feedback about an operation. They show a brief message at the top of the screen. Notifications can contain an action.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <div class="alert-box">
+  <span class="alert-icon" aria-hidden="true"></span>
+  <div class="message">
+    <span class="alert-type">Alert Type</span>
+    We use cookies to ensure you get the best experience
+  </div>
+</div>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class=&quot;alert-box&quot;&gt;
+  &lt;span class=&quot;alert-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;span class=&quot;alert-type&quot;&gt;Alert Type&lt;/span&gt;
+    We use cookies to ensure you get the best experience
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+      </div>
+
+      </section>
+</article>
+
+<!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="public/kss.js"></script>
+<script src="public/prettify.js"></script>
+<script src="js/styleguide.js"></script>
+
+<script src="js/module-sourcecode.js"></script>
+<script src="js/module-breakpoints.js"></script>
+<script src="js/module-menu-toggle.js"></script>
+<script src="js/module-menu-active.js"></script>
+
+<script>
+  prettyPrint();
+</script>
+
+</body>
+</html>

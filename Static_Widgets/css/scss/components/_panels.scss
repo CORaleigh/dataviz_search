@@ -1,0 +1,74 @@
+.panel {
+	@extend .group;
+	@include background(linear-gradient(#f9f9f9, white) top repeat);
+	padding: rem(3) rem(12) rem(12);
+	border-top: 1px solid #e5e5e5;
+	position: relative;
+}
+
+.panel--plain {
+	background: #ffffff;
+}
+
+.panel__content--dark-blue {
+	background: $dark-blue;
+	color: #ffffff;
+	width: 100%;
+	float: left;
+	clear: both;
+
+	a {
+		color: #ffffff;
+	}
+
+	+ .panel__foot {
+		@extend .panel__content--dark-blue;
+		padding-bottom: rem(10);
+		border-bottom: 1px solid #ffffff;
+
+		&:last-of-type {
+			border-bottom: none;
+		}
+	}
+}
+
+
+
+
+
+.panel__header {
+	+ .panel__content {
+		margin-top: 0;
+	}
+}
+
+
+
+
+
+.panel__title {
+	font-weight: bold;	
+	font-size: rem(18);
+	margin-top: rem(8);
+}
+
+
+
+
+
+.panel__content {
+	margin-top: rem(10);
+}
+
+
+
+
+
+.panel__foot {
+	@extend .group;
+	padding: rem(10) rem(5) 0;
+
+	+ .panel__content {
+		margin-top: 0;
+	}
+}

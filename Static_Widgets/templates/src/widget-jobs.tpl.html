@@ -1,0 +1,205 @@
+@@include('../inc/head.html')
+
+
+<div class="gsa-widget">
+	<!-- Widget Header -->
+	<header class="gsa-widget__header">
+		<h2 class="gsa-widget__title">Jobs</h2>
+		<div class="gsa-widget__location">
+			<span class="gsa-icon-location gsa-icon--lrg"></span> 
+			<span class="label">Your Location: </span>
+			<span id="gsa-widget-current-location">Raleigh, NC</span>
+			<button class="button button--text toggle-content" data-target="location-change">
+				Change Location <span class="gsa-icon-arrow-right gsa-icon--right gsa-icon--sm"></span>
+			</button>
+			<div id="location-change" class="gsa-widget__location-change hidden">
+				<form action="">
+					<div class="field field--append-submit">
+						<label for="location-name" class="visuallyhidden">Update Location</label>
+						<input id="location-name" type="text" placeholder="Enter Location">
+						<button type="submit">Update</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</header>
+
+
+
+
+
+
+	<!-- Open Jobs Panel w/table toggle -->
+	<div class="panel">
+		<header class="panel__header">
+			<div class="filter push-right">
+				<label for="filter-jobs" class="visuallyhidden">Filter Open Jobs</label>
+				<span class="filter__icon gsa-icon-filter gsa-icon--lrg"></span>
+				<select name="filter-jobs" id="filter-jobs" class="select-boxit">
+					<option value="all">All</option>
+					<option value="highest salary">Highest Salary</option>
+					<option value="part time">Part-Time</option>
+					<option value="most popular">Most Popular</option>
+				</select>
+			</div>
+			<h3 class="panel__title">Open Jobs</h3>
+		</header>
+		<div class="panel__content">
+			<table id="open-jobs" class="gsa-table gsa-table--open-jobs">
+				<thead>
+					<tr>
+						<th>Job Title</th>
+						<th>Salary Range</th>
+						<th>Dept</th>
+					</tr>
+				</thead>
+				<!-- TODO: default show first 5 rows ... then maybe slideToggle hidden rows with jquery -->
+				<tbody>
+					<tr class="gsa-table__row">
+						<td>
+							<a href="#">Bicycle and Pedestrian Coordinator</a>
+						</td>
+						<td>$44,880.76 - $78,206.56</td>
+						<td>Planning and Development / Transportation</td>
+					</tr>
+					<tr class="gsa-table__row">
+						<td>
+							<a href="#">Bicycle and Pedestrian Coordinator</a>
+						</td>
+						<td>$44,880.76 - $78,206.56</td>
+						<td>Planning and Development / Transportation</td>
+					</tr>
+					<tr class="gsa-table__row">
+						<td>
+							<a href="#">Bicycle and Pedestrian Coordinator</a>
+						</td>
+						<td>$44,880.76 - $78,206.56</td>
+						<td>Planning and Development / Transportation</td>
+					</tr>
+					<tr class="gsa-table__row">
+						<td>
+							<a href="#">Bicycle and Pedestrian Coordinator</a>
+						</td>
+						<td>$44,880.76 - $78,206.56</td>
+						<td>Planning and Development / Transportation</td>
+					</tr>
+					<tr class="gsa-table__row">
+						<td>
+							<a href="#">Bicycle and Pedestrian Coordinator</a>
+						</td>
+						<td>$44,880.76 - $78,206.56</td>
+						<td>Planning and Development / Transportation</td>
+					</tr>
+					<tr class="gsa-table__row">
+						<td>
+							<a href="#">Bicycle and Pedestrian Coordinator</a>
+						</td>
+						<td>$44,880.76 - $78,206.56</td>
+						<td>Planning and Development / Transportation</td>
+					</tr>
+					<tr class="gsa-table__row">
+						<td>
+							<a href="#">Bicycle and Pedestrian Coordinator</a>
+						</td>
+						<td>$44,880.76 - $78,206.56</td>
+						<td>Planning and Development / Transportation</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="panel__foot">
+				<a href="#" class="push-right">View All Jobs</a>
+				<!-- NOTE: .show-all-rows  is class used for click handler in init.js to toggle hidden rows open/closed and data-target="open-jobs" is ID of table to target -->
+				<button class="button--text button--text-dark show-all-rows" data-target="open-jobs">
+					<span class="gsa-icon-plus gsa-icon--left gsa-icon--sm"></span>Expand List
+				</button>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+
+	<!-- Google Chart -->
+	<div class="panel">
+		<header class="panel__header">
+			<h3 class="panel__title">Peak Hiring Months</h3>
+		</header>
+		<div class="panel__content">
+			<div id="chart-peak-hiring" class="gsa-chart"></div>
+		</div>
+		<div class="panel__foot">
+			<a href="#" class="push-right">View More at data.raleighnc.org <span class="gsa-icon-arrow-right gsa-icon--sm"></span></a>
+		</div>
+	</div>
+
+
+
+
+	<!-- Google Chart -->
+	<div class="panel">
+		<header class="panel__header">
+			<h3 class="panel__title">Benefits Comparison</h3>
+		</header>
+		<div class="panel__content">
+			<div id="chart-benefits-comparison" class="gsa-chart"></div>
+		</div>
+		<div class="panel__foot">
+			<a href="#" class="push-right">View More at data.raleighnc.org <span class="gsa-icon-arrow-right gsa-icon--sm"></span></a>
+		</div>
+	</div>
+
+
+
+
+	<!-- Google Chart -->
+	<div class="panel">
+		<header class="panel__header">
+			<h3 class="panel__title">Cost of Living</h3>
+		</header>
+		<div class="panel__content">
+			<div id="chart-cost-of-living" class="gsa-chart"></div>
+		</div>
+		<div class="panel__foot">
+			<a href="#" class="push-right">View More at data.raleighnc.org <span class="gsa-icon-arrow-right gsa-icon--sm"></span></a>
+		</div>
+	</div>
+
+
+
+
+	<!-- Quick Links Panel -->
+	<div class="panel">
+		<header class="panel__header">
+			<h3 class="panel__title">Biggest Hirers in Raleigh</h3>
+		</header>
+		<div class="panel__content">
+			<ul class="quick-links">
+				<li class="quick-links__item">
+					<a class="quick-links__link" href="#">State of North Carolina <span class="gsa-icon-arrow-right"></span>
+					</a>
+				</li>
+				<li class="quick-links__item">
+					<a class="quick-links__link" href="#">Wake County Public School System Extra Long Link <span class="gsa-icon-arrow-right"></span>
+					</a>
+				</li>
+				<li class="quick-links__item">
+					<a class="quick-links__link" href="#">IBM Corporation <span class="gsa-icon-arrow-right"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+	<!-- Google Charts -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+        google.charts.load('current', {'packages':['corechart', 'bar']});
+    </script>
+</div>
+
+
+@@include('../inc/footer.html')
+	
