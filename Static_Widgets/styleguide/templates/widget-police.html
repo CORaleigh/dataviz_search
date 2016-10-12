@@ -53,12 +53,11 @@
 #SearchBox .action {width:15%; background:#DD4B39; margin:0; margin-left:-5px; padding:9px;}
 #search_stats {clear:both; margin-bottom:10px; color:#666; border-bottom:1px solid #ddd; padding:0 2%;}
 .suggestion {padding:7px; color:#666;}
-#keymatch {margin:1em;padding:.5em;background:#fafafa;border:2px solid #e96629;border-radius:10px}
 .g a {font-size:1.4em; font-weight:normal; text-shadow:none; word-wrap:break-word;}
 .content div {margin-bottom:1em; font-family:sans-serif;}
 .content .s {margin:0;}
 .floating-viewer div {margin:0;}
-.url {color:#093; word-wrap:break-word;}
+.url {color:#007928; word-wrap: break-word;display:block;}
 .g {margin:0; font-family:sans-serif; line-height:1.1;}
 .content a:before, .content a:after, #bottom-navigation a:before, #bottom-navigation a:after {display:none;}
 #col2 a {border:0; vertical-align:middle;}
@@ -123,6 +122,16 @@ a[href ^="https://data.raleighnc.gov"][href*="Map"], a[href ^="https://data.rale
 
 
 <style>
+
+/*
+
+- green color updated in above inline styles for .url to fix contrast 508 AA low contrast issue and fix for word break in IE11
+
+ */
+
+/*updated keymatch styles*/
+#keymatch {box-shadow: 0 0 10px rgba(0,0,0,.25);margin:0 0 30px 8px;padding:20px;}
+#keymatch h3 {margin:0;font-weight:bold;line-height:1;}
 
 /* NEW AtlanticBT styles added for wrappers on search page */
 #col2, #col3 { width: 99%; float: none; }
@@ -220,19 +229,19 @@ table.gsa-table td { text-align: left; }
 	<div class="panel panel--plain">
 		<div class="panel__content location-info">
 			<ul>
-				<li class="location-info__item location-info__item--police">
+				<li class="location-info__item location-info__item--lrg">
 					<span class="gsa-icon-phone gsa-icon--xl gsa-icon--circle gsa-icon--dark-blue"></span>
 					<h3 class="location-info__title">Non-emergency Police Response</h3>
 					<span class="location-info__label">Website:</span>
 					<a href="#">raleighnc.gov/parks</a>
 				</li>
-				<li class="location-info__item location-info__item--police">
+				<li class="location-info__item location-info__item--lrg">
 					<span class="gsa-icon-phone gsa-icon--xl gsa-icon--circle gsa-icon--dark-blue"></span>
 					<h3 class="location-info__title">Non-emergency Police Response</h3>
 					<span class="location-info__label">Website:</span>
 					<a href="#">raleighnc.gov/parks</a>
 				</li>
-				<li class="location-info__item location-info__item--police">
+				<li class="location-info__item location-info__item--lrg">
 					<span class="gsa-icon-mail  gsa-icon--circle gsa-icon--orange"></span>
 					<h3 class="location-info__title">Non-emergency Police Response</h3>
 					<span class="location-info__label">Website:</span>
@@ -241,6 +250,132 @@ table.gsa-table td { text-align: left; }
 			</ul>
 		</div>
 	</div>
+
+
+
+
+	<!-- Crime Report CTA -->
+	<div class="panel cta">
+		<header class="panel__header">
+			<h2 class="panel__title">Report a Crime</h2>
+		</header>
+		<div class="panel__content">
+			<a href="#" class="button button--primary button--lrg">
+				Fill Out a Crime Report
+				<span class="gsa-icon-arrow-right"></span>
+			</a>
+		</div>
+		<div class="panel__foot">
+			<h3 class="cta__subheading">Report a Crime in Progress: Dial 911</h3>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- Contact (general) -->
+	<div class="panel ">
+		<header class="panel__header">
+			<h2 class="panel__title">General Contact Information</h2>
+		</header>
+		<div class="panel__content">
+			<div class="contact">
+				<figure class="contact__img">
+					<img src="/img/th_raleigh-police-station.jpg" alt="">
+				</figure>
+				<div class="contact__details">
+					<div class="contact__title">Raleigh Police Headquarters</div>
+					<div class="contact__address">6716 Six Forks Rd, Raleigh, NC 27615</div>
+					<div class="contact__person">
+						<span class="contact__label">Police Chief:</span> <a href="#">Cassandra Deck-Brown</a>
+					</div>
+					<div class="contact__person">
+						<span class="contact__label">Deputy Chief:</span> <a href="#">JC Penney</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- Contact (Station Nearest You) -->
+	<div class="panel ">
+		<header class="panel__header">
+			<h2 class="panel__title">Station Nearest You</h2>
+		</header>
+		<div class="panel__content">
+			<div class="contact">
+				<figure class="contact__img">
+					<img src="/img/th_raleigh-police-headquarters.jpg" alt="Raleigh Police Headquarters">
+				</figure>
+				<div class="contact__details">
+					<div class="contact__title">Raleigh Police Headquarters</div>
+					<div class="contact__address">8016 Glennwood Ave, Raleigh, NC 27615</div>
+					<div class="contact__phone">
+						<span class="contact__label">Phone:</span> <a href="tel:9199962300">(919) 996-2300</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- Common Permit Stats -->
+	<div class="panel panel--plain">
+		<!-- Common Permits Chart -->
+		<div class="panel__content panel__content--dark-blue">
+			<div class="gsa-chart__title">Crimes Near You</div>
+			<div id="chart-nearby-crimes" class="gsa-chart gsa-chart--short">
+			</div>
+		</div>
+		<div class="panel__foot text-right">
+			<a href="" class="">View More Data at data.raleighnc.gov <span class="gsa-icon--sm gsa-icon-arrow-right"></span></a>
+		</div>
+	</div>
+
+	<!-- Google Charts -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+        google.charts.load('current', {'packages':['corechart']});
+    </script>
+
+
+
+
+
+    <!-- Ad Space and Stat CTA-->
+    <div class="panel">
+    	<div class="panel__content panel__content--dark-blue">
+    		<div class="ad-space">
+    			<a href="#" class="ad-space__link">
+    				<img src="/img/g_rpd-career-ad.jpg" alt="Raleigh Police Departemnt: Not Just a Job...A CAREER" class="ad-space__img">
+    			</a>
+    		</div>
+
+    		<div class="cta-stats cta-stats--border">
+				<span class="gsa-icon-police cta-stats__icon"></span>
+				<div class="cta-stats__item">
+					<div class="cta-stats__item-text">Open Jobs<br/> At RPD</div>
+					<div class="cta-stats__item-count">14</div>
+				</div>
+				<div class="cta-stats__item">
+					<div class="cta-stats__item-text">Days Until App Period Ends</div>
+					<div class="cta-stats__item-count">162</div>
+				</div>
+			</div>
+    	</div>
+    	<div class="panel__foot text-center">
+    		<a href="#" class="buton .button--text button--lrg">
+    			Learn More <span class="gsa-icon-arrow-right"></span>
+    		</a>
+    	</div>
+    </div>
 
 
 
@@ -260,6 +395,26 @@ table.gsa-table td { text-align: left; }
 		         
 		         <div id="keymatch">
                     <h3><a href="http://www.raleighnc.gov/parks/content/ParksRec/Articles/Parks/Pullen.html" ctype="keymatch">Pullen Park</a></h3><span class="url">http://www.raleighnc.gov/parks/content/ParksRec/Articles/Parks/Pullen.html</span>
+                </div>
+
+                <div class="factoid">
+                	<span class="factoid__icon">
+                		<span class="gsa-icon-light"></span>
+                	</span>
+                	<span class="factoid__details">
+                		<h3 class="factoid__title">Did you know?</h3>
+                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                		quis nostrud exercitation ullamco.</p>
+                		<ul>
+                			<li>Lorem ipsum dolor sit amet</li>
+                			<li>Lorem ipsum dolor sit amet</li>
+                			<li>Lorem ipsum dolor sit amet</li>
+                		</ul>
+                		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                		quis nostrud exercitation ullamco.</p>
+                	</span>
                 </div>
 
                 <div class="result-item"><p class="g"><font size="-1"><b></b></font>

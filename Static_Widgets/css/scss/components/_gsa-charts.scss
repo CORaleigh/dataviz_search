@@ -13,3 +13,15 @@
 .gsa-chart--short {
 	min-height: 166px;
 }
+
+// fix for contrast issue in charts
+[aria-label="A tabular representation of the data in the chart."] {
+	table {
+		background-color: #fff;
+		color: #000;
+	}
+	th {
+		background-color: #000;
+		color: #fff;
+	}
+}

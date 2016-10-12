@@ -6,7 +6,8 @@
     $chartPeakHiringContainer = "chart-peak-hiring",
     $chartBenefitsComparisonContainer = "chart-benefits-comparison",
     $chartCostOfLivingContainer = "chart-cost-of-living",
-    $chartCommonPermitsContainer = "chart-common-permits";
+    $chartCommonPermitsContainer = "chart-common-permits",
+    $chartNearbyCrimesContainer = "chart-nearby-crimes";
 
 /* =======================================================================================================
     Functions
@@ -103,6 +104,10 @@ var gsa = {
 
             if ( $('#' + $chartCommonPermitsContainer).length > 0 ) {
                 google.charts.setOnLoadCallback(gsa.googleCharts.drawCommonPermits);
+            }
+
+            if ( $('#' + $chartNearbyCrimesContainer).length > 0 ) {
+                google.charts.setOnLoadCallback(gsa.googleCharts.drawNearbyCrimes);
             }
         },
 
@@ -244,9 +249,7 @@ var gsa = {
 
                 
                 var optionsCommonPermits = {
-                    //backgroundColor: { fill:'transparent' },
                     colors: ['#477dca', '#efb505', '#ffffff'], // blue | gold | white
-                    //is3D: true,
                     fontSize: 13,
                     chartArea:{
                         left: '5%',
@@ -260,12 +263,52 @@ var gsa = {
                             color: "fff"
                         }
                     },
-                    backgroundColor: { fill:'transparent' }
+                    backgroundColor: { fill:'3c61a5' }
                 };
 
                 
                 var chartCommonPermits = new google.visualization.PieChart(document.getElementById('chart-common-permits'));
                     chartCommonPermits.draw(dataCommonPermits, optionsCommonPermits);
+            }
+        },
+
+        drawNearbyCrimes: function () {
+
+            if ( $('#' + $chartNearbyCrimesContainer).length > 0 ) {
+                    
+                var dataNearbyCrimes = new google.visualization.DataTable();
+                dataNearbyCrimes.addColumn('string', 'Item');
+                dataNearbyCrimes.addColumn('number', 'Amount');
+                dataNearbyCrimes.addRows([
+                    ['Non Violent', 150],
+                    ['Burglary', 50],
+                    ['Gun-related', 50],
+                    ['Vehicular', 50]
+                ]);
+
+                
+                var optionsNearbyCrimes = {
+                    colors: ['#477dca', '#efb505', '#dd6739', '#ffffff'], // blue | gold | orange | white
+                    fontSize: 13,
+                    chartArea:{
+                        left: '5%',
+                        top: 20,
+                        width: '90%',
+                        height: '165',
+                    },
+                    legend: {
+                        'position':'right',
+                        textStyle: {
+                            color: "fff"
+                        }
+                    },
+                    backgroundColor: { fill:'3c61a5' },
+                    pieSliceText: "none"
+                };
+
+                
+                var chartNearbyCrimes = new google.visualization.PieChart(document.getElementById('chart-nearby-crimes'));
+                    chartNearbyCrimes.draw(dataNearbyCrimes, optionsNearbyCrimes);
             }
         }
     },
@@ -335,6 +378,7 @@ var init = {
         gsa.googleCharts.drawBenefitsComparison();
         gsa.googleCharts.drawCostOfLiving();
         gsa.googleCharts.drawCommonPermits();
+        gsa.googleCharts.drawNearbyCrimes();
     }
 };
 $(document).ready(init.ready);

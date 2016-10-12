@@ -24,7 +24,6 @@
 	+ .panel__foot {
 		@extend .panel__content--dark-blue;
 		padding-bottom: rem(10);
-		border-bottom: 1px solid #ffffff;
 
 		&:last-of-type {
 			border-bottom: none;
@@ -71,4 +70,13 @@
 	+ .panel__content {
 		margin-top: 0;
 	}
+}
+// extra top/bottom padding
+.panel__foot--pad {
+	padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.panel__foot--border-bottom {
+	border-bottom: 1px solid #ffffff;
 }

@@ -1,0 +1,138 @@
+@@include('../inc/head.html')
+
+
+<div class="gsa-widget">
+	<!-- Widget Header -->
+	<header class="gsa-widget__header">
+		<h2 id="park-name" class="gsa-widget__title">Water</h2>
+		<div class="gsa-widget__location">
+			<span class="gsa-icon-location gsa-icon--lrg"></span> 
+			<span class="label">Your Location: </span>
+			<span id="gsa-widget-current-location">Raleigh, NC</span>
+			<button class="button button--text toggle-content" data-target="location-change">
+				Change Location <span class="gsa-icon-arrow-right gsa-icon--right gsa-icon--sm"></span>
+			</button>
+			<div id="location-change" class="gsa-widget__location-change hidden">
+				<form action="">
+					<div class="field field--append-submit">
+						<label for="location-name" class="visuallyhidden">Update Location</label>
+						<input id="location-name" type="text" placeholder="Enter Location">
+						<button type="submit">Update</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</header>
+
+
+
+
+	<!-- Location Info -->
+	<div class="panel panel--plain">
+		<div class="panel__content">
+			<div class="alert-box">
+				<div class="alert-box__icon alert-box__icon--red">
+					<span class="gsa-icon-warning-outline gsa-icon--xl"></span>
+				</div>
+				<div class="alert-box__detail">
+					Water Main Break being repaired in your area.
+				</div>
+			</div>
+
+			<div class="alert-box">
+				<div class="alert-box__icon alert-box__icon--gold">
+					<span class="gsa-icon-warning-outline gsa-icon--xl"></span>
+				</div>
+				<div class="alert-box__detail">
+					Water Boil Admisory for Wake County.
+				</div>
+			</div>
+		</div>
+		<div class="panel__foot panel__foot--pad text-center">
+			<a href="#" class="button button--lrg">Pay Water Bill Online <span class="gsa-icon-arrow-right"></span></a>
+			<a href="#" class="button button--text button--lrg">Other ways to pay</a>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- Location Info -->
+	<div class="panel panel--plain">
+		<div class="panel__content location-info">
+			<ul>
+				<li class="location-info__item location-info__item--lrg">
+					<span class="gsa-icon-phone gsa-icon--xl gsa-icon--circle gsa-icon--dark-blue"></span>
+					<h3 class="location-info__title">Customer Care Center</h3>
+					<span class="location-info__label">Phone:</span>
+					<a href="tel">(919) 996-3245</a>
+				</li>
+				<li class="location-info__item">
+					<span class="gsa-icon-mail  gsa-icon--circle gsa-icon--orange"></span>
+					<span class="location-info__label">Email:</span>
+					<a href="mailto:UtilityBilling@raleighnc.gov">UtilityBilling@raleighnc.gov</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+
+	<div class="panel">
+		<div class="panel__content panel__content--dark-blue">
+			<div class="cta-stats">
+				<span class="gsa-icon-briefcase cta-stats__icon"></span>
+				<div class="cta-stats__item">
+					<div class="cta-stats__item-text">avg water usage near you</div>
+					<span class="cta-stats__item-count pull-left">80</span>
+					<span class="cta-stats__count-label">
+						<div>gal/</div><div>month</div>
+					</span>
+				</div>
+				<div class="cta-stats__item">
+					<div class="cta-stats__item-text">avg utility bill near you</div>
+					<div class="cta-stats__item-count pull-left">$35</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel__foot text-right">
+			<a href="" class="">View More Data at data.raleighnc.gov <span class="gsa-icon--sm gsa-icon-arrow-right"></span></a>
+		</div>
+	</div>
+
+
+
+
+	<!-- Quick Links Panel -->
+	<div class="panel">
+		<header class="panel__header">
+			<h3 class="panel__title">Water Quality</h3>
+		</header>
+		<div class="panel__content">
+			<ul class="quick-links">
+				<li class="quick-links__item">
+					<a class="quick-links__link" href="#">Lead in Your Water Info <span class="gsa-icon-arrow-right"></span>
+					</a>
+				</li>
+				<li class="quick-links__item">
+					<a class="quick-links__link" href="#">Lead Testing <span class="gsa-icon-arrow-right"></span>
+					</a>
+				</li>
+				<li class="quick-links__item">
+					<a class="quick-links__link" href="#">Water Quality Reports <span class="gsa-icon-arrow-right"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+
+</div>
+
+
+@@include('../inc/footer.html')
+	
