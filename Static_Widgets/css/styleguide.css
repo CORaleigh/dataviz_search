@@ -1702,7 +1702,7 @@ a [class^="gsa-icon-"]:hover, a [class^="gsa-icon-"]:focus, a [class^="gsa-icon-
 
 @media (min-width: 1025px) {
   .gsa-widget .weather__more-data {
-    padding: 0 0 0.625rem;
+    padding: 0.625rem 0 0.625rem;
     margin-top: -10px;
   }
 }
