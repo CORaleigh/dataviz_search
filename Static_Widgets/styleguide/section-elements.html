@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]>            <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IEMobile 7]>          <html class="no-js iem7" lang="en"> <![endif]-->
+<!--[if (IE 7)&(!IEMobile)]>  <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>                <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Style Guide</title>
+
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="css/styleguide.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body id="kss-node">
+
+  <div class="kss-toolbar">
+    <button id="kss-menu-toggle">Menu</button>
+
+    <div class="switch-field">
+      <input type="radio" id="switch_3_left" name="switch_3" value="phone"/>
+      <label for="switch_3_left">Phone</label>
+      <input type="radio" id="switch_3_center" name="switch_3" value="tablet" />
+      <label for="switch_3_center">Tablet</label>
+      <input type="radio" id="switch_3_right" name="switch_3" value="desktop" checked/>
+      <label for="switch_3_right">Desktop</label>
+    </div>
+  </div>
+
+<div class="kss-sidebar kss-style">
+  <header class="kss-header">
+    <h1 class="kss-doc-title">Style Guide</h1>
+  </header>
+  <nav class="kss-nav">
+    <ul class="kss-nav__menu">
+      <li class="kss-nav__menu-item">
+        <a href="./">
+          <span class="kss-nav__ref">0</span
+          ><span class="kss-nav__name">Overview</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-branding.html">
+          <span class="kss-nav__ref">1</span
+          ><span class="kss-nav__name">Branding</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-components.html">
+          <span class="kss-nav__ref">2</span
+          ><span class="kss-nav__name">Components</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-elements.html">
+          <span class="kss-nav__ref">3</span
+          ><span class="kss-nav__name">Elements</span>
+        </a>
+        <ul class="kss-nav__menu-child">
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-blockquotes">
+                <span class="kss-nav__ref ">3.1</span
+                ><span class="kss-nav__name">Blockquotes</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-buttons">
+                <span class="kss-nav__ref ">3.2</span
+                ><span class="kss-nav__name">Buttons</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-forms">
+                <span class="kss-nav__ref ">3.3</span
+                ><span class="kss-nav__name">Forms</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-forms-checkboxes">
+                <span class="kss-nav__ref kss-nav__ref-child">3.3.1</span
+                ><span class="kss-nav__name">Checkboxes</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-forms-inputs">
+                <span class="kss-nav__ref kss-nav__ref-child">3.3.2</span
+                ><span class="kss-nav__name">Inputs</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-forms-radios">
+                <span class="kss-nav__ref kss-nav__ref-child">3.3.3</span
+                ><span class="kss-nav__name">Radios</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-forms-selects">
+                <span class="kss-nav__ref kss-nav__ref-child">3.3.4</span
+                ><span class="kss-nav__name">Selects</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-forms-textarea">
+                <span class="kss-nav__ref kss-nav__ref-child">3.3.5</span
+                ><span class="kss-nav__name">Textarea</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-headings">
+                <span class="kss-nav__ref ">3.4</span
+                ><span class="kss-nav__name">Headings</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-images">
+                <span class="kss-nav__ref ">3.5</span
+                ><span class="kss-nav__name">Images</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-line-rules">
+                <span class="kss-nav__ref ">3.6</span
+                ><span class="kss-nav__name">Line Rules</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-links">
+                <span class="kss-nav__ref ">3.7</span
+                ><span class="kss-nav__name">Links</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-lists">
+                <span class="kss-nav__ref ">3.8</span
+                ><span class="kss-nav__name">Lists</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-lists-definition-lists">
+                <span class="kss-nav__ref kss-nav__ref-child">3.8.1</span
+                ><span class="kss-nav__name">Definition Lists</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-lists-ordered-lists">
+                <span class="kss-nav__ref kss-nav__ref-child">3.8.2</span
+                ><span class="kss-nav__name">Ordered Lists</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-lists-unordered-lists">
+                <span class="kss-nav__ref kss-nav__ref-child">3.8.3</span
+                ><span class="kss-nav__name">Unordered Lists</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-paragraphs">
+                <span class="kss-nav__ref ">3.9</span
+                ><span class="kss-nav__name">Paragraphs</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-tables">
+                <span class="kss-nav__ref ">3.10</span
+                ><span class="kss-nav__name">Tables</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-elements.html#kssref-elements-videos">
+                <span class="kss-nav__ref ">3.11</span
+                ><span class="kss-nav__name">Videos</span>
+              </a>
+            </li>
+        </ul>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-layouts.html">
+          <span class="kss-nav__ref">4</span
+          ><span class="kss-nav__name">Layouts</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<article role="main" class="kss-main">
+
+      <div     id="kssref-elements" class="kss-section kss-section--depth-1">
+
+    <div class="kss-style">
+      <h1 class="kss-title kss-title--level-1">
+        <a class="kss-title__permalink" href="#kssref-elements">
+          <span class="kss-title__ref">
+              3
+            <span class="kss-title__permalink-hash">
+                #Elements
+            </span>
+          </span>
+          Elements
+        </a>
+      </h1>
+
+
+    </div>
+
+
+      </div>
+      <section id="kssref-elements-blockquotes" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-elements-blockquotes">
+          <span class="kss-title__ref">
+              3.1
+            <span class="kss-title__permalink-hash">
+                #Elements - Blockquotes
+            </span>
+          </span>
+          Blockquotes
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>The blockquote element is a mechanism for marking up a block of text quoted from a person or another document or source.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <blockquote>
+    <p>Design is not just what it looks like and feels like. Design is how it works.</p>
+    <footer>
+        <cite>Steve Jobs</cite>
+    </footer>
+</blockquote>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;blockquote&gt;
+    &lt;p&gt;Design is not just what it looks like and feels like. Design is how it works.&lt;/p&gt;
+    &lt;footer&gt;
+        &lt;cite&gt;Steve Jobs&lt;/cite&gt;
+    &lt;/footer&gt;
+&lt;/blockquote&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-buttons" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-elements-buttons">
+          <span class="kss-title__ref">
+              3.2
+            <span class="kss-title__permalink-hash">
+                #Elements - Buttons
+            </span>
+          </span>
+          Buttons
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>A majority of buttons in the site are built from the same base class.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <a class="button " href="#">Link Button</a>
+<button class="button ">Button Element</button>
+<input class="button " type="submit" value="Input Button"/>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;a class=&quot;button &quot; href=&quot;#&quot;&gt;Link Button&lt;/a&gt;
+&lt;button class=&quot;button &quot;&gt;Button Element&lt;/button&gt;
+&lt;input class=&quot;button &quot; type=&quot;submit&quot; value=&quot;Input Button&quot;/&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-forms" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-elements-forms">
+          <span class="kss-title__ref">
+              3.3
+            <span class="kss-title__permalink-hash">
+                #Elements - Forms
+            </span>
+          </span>
+          Forms
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>Common form elements that allows users to enter data.</p>
+
+      </div>
+    </div>
+
+
+      </section>
+      <section id="kssref-elements-forms-checkboxes" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-elements-forms-checkboxes">
+          <span class="kss-title__ref">
+              3.3.1
+            <span class="kss-title__permalink-hash">
+                #Elements - Forms - Checkboxes
+            </span>
+          </span>
+          Checkboxes
+        </a>
+      </h3>
+
+
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <div class="fieldset checkboxes">
+    <fieldset>
+        <legend><span>Checkboxes</span></legend>
+        <ul>
+            <li class="field">
+                <input id="option1" type="checkbox" class="checkbox" name="option" value="option1" />
+                <label for="option1">Option 1</label>
+            </li>
+            <li class="field">
+                <input id="option2" type="checkbox" class="checkbox" name="option" value="option2" />
+                <label for="option2">Option 2</label>
+            </li>
+            <li class="field">
+                <input id="option3" type="checkbox" class="checkbox" name="option" value="option3" />
+                <label for="option3">Option 3</label>
+            </li>
+        </ul>
+    </fieldset>
+</div>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class=&quot;fieldset checkboxes&quot;&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;&lt;span&gt;Checkboxes&lt;/span&gt;&lt;/legend&gt;
+        &lt;ul&gt;
+            &lt;li class=&quot;field&quot;&gt;
+                &lt;input id=&quot;option1&quot; type=&quot;checkbox&quot; class=&quot;checkbox&quot; name=&quot;option&quot; value=&quot;option1&quot; /&gt;
+                &lt;label for=&quot;option1&quot;&gt;Option 1&lt;/label&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;field&quot;&gt;
+                &lt;input id=&quot;option2&quot; type=&quot;checkbox&quot; class=&quot;checkbox&quot; name=&quot;option&quot; value=&quot;option2&quot; /&gt;
+                &lt;label for=&quot;option2&quot;&gt;Option 2&lt;/label&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;field&quot;&gt;
+                &lt;input id=&quot;option3&quot; type=&quot;checkbox&quot; class=&quot;checkbox&quot; name=&quot;option&quot; value=&quot;option3&quot; /&gt;
+                &lt;label for=&quot;option3&quot;&gt;Option 3&lt;/label&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/fieldset&gt;
+&lt;/div&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-forms-inputs" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-elements-forms-inputs">
+          <span class="kss-title__ref">
+              3.3.2
+            <span class="kss-title__permalink-hash">
+                #Elements - Forms - Inputs
+            </span>
+          </span>
+          Inputs
+        </a>
+      </h3>
+
+
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <div class="field ">
+    <label for="text-name">Input Label</label>
+    <input id="text-name" type="text" placeholder="Placeholder..." />
+</div>
+<div class="field ">
+    <label for="email-name">Email Label</label>
+    <input id="email-name" type="email" placeholder="someone@example.com" autocapitalize="off" />
+</div>
+<div class="field ">
+    <label for="password-name">Password Label</label>
+    <input id="password-name" type="password" placeholder="Password" autocapitalize="off" />
+</div>
+<div class="field ">
+    <label for="phone-name">Telephone Label</label>
+    <input id="phone-name" type="tel" placeholder="(###) ###-####" />
+</div>
+<div class="field ">
+    <label for="file-name">File Label</label>
+    <input id="file-name" type="file" />
+</div>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class=&quot;field &quot;&gt;
+    &lt;label for=&quot;text-name&quot;&gt;Input Label&lt;/label&gt;
+    &lt;input id=&quot;text-name&quot; type=&quot;text&quot; placeholder=&quot;Placeholder...&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field &quot;&gt;
+    &lt;label for=&quot;email-name&quot;&gt;Email Label&lt;/label&gt;
+    &lt;input id=&quot;email-name&quot; type=&quot;email&quot; placeholder=&quot;someone@example.com&quot; autocapitalize=&quot;off&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field &quot;&gt;
+    &lt;label for=&quot;password-name&quot;&gt;Password Label&lt;/label&gt;
+    &lt;input id=&quot;password-name&quot; type=&quot;password&quot; placeholder=&quot;Password&quot; autocapitalize=&quot;off&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field &quot;&gt;
+    &lt;label for=&quot;phone-name&quot;&gt;Telephone Label&lt;/label&gt;
+    &lt;input id=&quot;phone-name&quot; type=&quot;tel&quot; placeholder=&quot;(###) ###-####&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;field &quot;&gt;
+    &lt;label for=&quot;file-name&quot;&gt;File Label&lt;/label&gt;
+    &lt;input id=&quot;file-name&quot; type=&quot;file&quot; /&gt;
+&lt;/div&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-forms-radios" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-elements-forms-radios">
+          <span class="kss-title__ref">
+              3.3.3
+            <span class="kss-title__permalink-hash">
+                #Elements - Forms - Radios
+            </span>
+          </span>
+          Radios
+        </a>
+      </h3>
+
+
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <div class="fieldset radios">
+    <fieldset>
+        <legend><span>Select an option:</span></legend>
+        <ul>
+            <li class="field">
+                <input id="single-option1" type="radio" class="radio" name="options" />
+                <label for="single-option1">Option 1</label>
+            </li>
+            <li class="field">
+                <input id="single-option2" type="radio" class="radio" name="options" />
+                <label for="single-option2">Option 2</label>
+            </li>
+        </ul>
+    </fieldset>
+</div>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class=&quot;fieldset radios&quot;&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;&lt;span&gt;Select an option:&lt;/span&gt;&lt;/legend&gt;
+        &lt;ul&gt;
+            &lt;li class=&quot;field&quot;&gt;
+                &lt;input id=&quot;single-option1&quot; type=&quot;radio&quot; class=&quot;radio&quot; name=&quot;options&quot; /&gt;
+                &lt;label for=&quot;single-option1&quot;&gt;Option 1&lt;/label&gt;
+            &lt;/li&gt;
+            &lt;li class=&quot;field&quot;&gt;
+                &lt;input id=&quot;single-option2&quot; type=&quot;radio&quot; class=&quot;radio&quot; name=&quot;options&quot; /&gt;
+                &lt;label for=&quot;single-option2&quot;&gt;Option 2&lt;/label&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/fieldset&gt;
+&lt;/div&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-forms-selects" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-elements-forms-selects">
+          <span class="kss-title__ref">
+              3.3.4
+            <span class="kss-title__permalink-hash">
+                #Elements - Forms - Selects
+            </span>
+          </span>
+          Selects
+        </a>
+      </h3>
+
+
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <div class="field select">
+    <label for="select-choice">Select an option:</label>
+    <select id="select-choice" name="select-choice">
+        <option value="Choice 1">Choice 1</option>
+        <option value="Choice 2">Choice 2</option>
+        <option value="Choice 3">Choice 3</option>
+    </select>
+</div>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class=&quot;field select&quot;&gt;
+    &lt;label for=&quot;select-choice&quot;&gt;Select an option:&lt;/label&gt;
+    &lt;select id=&quot;select-choice&quot; name=&quot;select-choice&quot;&gt;
+        &lt;option value=&quot;Choice 1&quot;&gt;Choice 1&lt;/option&gt;
+        &lt;option value=&quot;Choice 2&quot;&gt;Choice 2&lt;/option&gt;
+        &lt;option value=&quot;Choice 3&quot;&gt;Choice 3&lt;/option&gt;
+    &lt;/select&gt;
+&lt;/div&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-forms-textarea" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-elements-forms-textarea">
+          <span class="kss-title__ref">
+              3.3.5
+            <span class="kss-title__permalink-hash">
+                #Elements - Forms - Textarea
+            </span>
+          </span>
+          Textarea
+        </a>
+      </h3>
+
+
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <div class="field ">
+    <label for="textarea-name">Textarea:</label>
+    <textarea id="textarea-name"></textarea>
+</div>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class=&quot;field &quot;&gt;
+    &lt;label for=&quot;textarea-name&quot;&gt;Textarea:&lt;/label&gt;
+    &lt;textarea id=&quot;textarea-name&quot;&gt;&lt;/textarea&gt;
+&lt;/div&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-headings" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-elements-headings">
+          <span class="kss-title__ref">
+              3.4
+            <span class="kss-title__permalink-hash">
+                #Elements - Headings
+            </span>
+          </span>
+          Headings
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>Hierarchical titles</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-images" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-elements-images">
+          <span class="kss-title__ref">
+              3.5
+            <span class="kss-title__permalink-hash">
+                #Elements - Images
+            </span>
+          </span>
+          Images
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>Display a photograph/graphic in the content. You can optionally configure image sources for multi-device support.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <img src="assets/image.jpg" alt="Scenic view of mountains and ocean" />
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;img src=&quot;assets/image.jpg&quot; alt=&quot;Scenic view of mountains and ocean&quot; /&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-line-rules" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-elements-line-rules">
+          <span class="kss-title__ref">
+              3.6
+            <span class="kss-title__permalink-hash">
+                #Elements - Line Rules
+            </span>
+          </span>
+          Line Rules
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>The hr element creates in the document a highly visible break that renders as a slim horizontal line running the width of the area to which it’s applied.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <hr />
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;hr /&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-links" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-elements-links">
+          <span class="kss-title__ref">
+              3.7
+            <span class="kss-title__permalink-hash">
+                #Elements - Links
+            </span>
+          </span>
+          Links
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>The a element is usually referred to as a link.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <a href="#" title="link title">Text link</a>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;a href=&quot;#&quot; title=&quot;link title&quot;&gt;Text link&lt;/a&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-lists" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-elements-lists">
+          <span class="kss-title__ref">
+              3.8
+            <span class="kss-title__permalink-hash">
+                #Elements - Lists
+            </span>
+          </span>
+          Lists
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>Element that groups related content together. They&#39;re part of everyday life and come in multiple formats.</p>
+
+      </div>
+    </div>
+
+
+      </section>
+      <section id="kssref-elements-lists-definition-lists" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-elements-lists-definition-lists">
+          <span class="kss-title__ref">
+              3.8.1
+            <span class="kss-title__permalink-hash">
+                #Elements - Lists - Definition Lists
+            </span>
+          </span>
+          Definition Lists
+        </a>
+      </h3>
+
+
+      <div class="kss-description">
+        <p>If you want to list a series of items that essentially have a title and a description of some kind (that is, each item has two parts), use the definition list dl element.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <dl>
+    <dt>Definition List</dt>
+    <dd>A number of connected items or names written or printed consecutively, typically one below the other.</dd>
+    <dt>This is a term.</dt>
+    <dd>This is the definition of that term, which both live in a dl.</dd>
+    <dt>Here is another term.</dt>
+    <dd>And it gets a definition too, which is this line.</dd>
+    <dt>Here is term that shares a definition with the term below.</dt>
+    <dd>And it gets a definition too, which is this line.</dd>
+</dl>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;dl&gt;
+    &lt;dt&gt;Definition List&lt;/dt&gt;
+    &lt;dd&gt;A number of connected items or names written or printed consecutively, typically one below the other.&lt;/dd&gt;
+    &lt;dt&gt;This is a term.&lt;/dt&gt;
+    &lt;dd&gt;This is the definition of that term, which both live in a dl.&lt;/dd&gt;
+    &lt;dt&gt;Here is another term.&lt;/dt&gt;
+    &lt;dd&gt;And it gets a definition too, which is this line.&lt;/dd&gt;
+    &lt;dt&gt;Here is term that shares a definition with the term below.&lt;/dt&gt;
+    &lt;dd&gt;And it gets a definition too, which is this line.&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-lists-ordered-lists" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-elements-lists-ordered-lists">
+          <span class="kss-title__ref">
+              3.8.2
+            <span class="kss-title__permalink-hash">
+                #Elements - Lists - Ordered Lists
+            </span>
+          </span>
+          Ordered Lists
+        </a>
+      </h3>
+
+
+      <div class="kss-description">
+        <p>The ol element is similar to the ul element in that it’s used to group a collection of items together in a list.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <ol>
+    <li>Lorem ipsum dolor sit amet</li>
+    <li>Consectetur adipiscing elit</li>
+    <li>Integer molestie lorem at massa</li>
+</ol>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;ol&gt;
+    &lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
+    &lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+    &lt;li&gt;Integer molestie lorem at massa&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-lists-unordered-lists" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-elements-lists-unordered-lists">
+          <span class="kss-title__ref">
+              3.8.3
+            <span class="kss-title__permalink-hash">
+                #Elements - Lists - Unordered Lists
+            </span>
+          </span>
+          Unordered Lists
+        </a>
+      </h3>
+
+
+      <div class="kss-description">
+        <p>The ul element, the name for which is an abbreviation of unordered list, is used to group a collection of items together in a list, but in a way that doesn’t suggest an order of precedence or importance.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <ul>
+    <li>Lorem ipsum dolor sit amet</li>
+    <li>Consectetur adipiscing elit</li>
+    <li>Integer molestie lorem at massa</li>
+</ul>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;ul&gt;
+    &lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
+    &lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+    &lt;li&gt;Integer molestie lorem at massa&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-paragraphs" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-elements-paragraphs">
+          <span class="kss-title__ref">
+              3.9
+            <span class="kss-title__permalink-hash">
+                #Elements - Paragraphs
+            </span>
+          </span>
+          Paragraphs
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>The p element is one of the most commonly used building blocks of HTML.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas odio tortor, sed vehicula nunc lobortis rutrum. Cras ultrices luctus purus non malesuada. Morbi accumsan, justo ut venenatis aliquet, risus elit sollicitudin tellus, eu vestibulum velit odio a justo.</p>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas odio tortor, sed vehicula nunc lobortis rutrum. Cras ultrices luctus purus non malesuada. Morbi accumsan, justo ut venenatis aliquet, risus elit sollicitudin tellus, eu vestibulum velit odio a justo.&lt;/p&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-tables" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-elements-tables">
+          <span class="kss-title__ref">
+              3.10
+            <span class="kss-title__permalink-hash">
+                #Elements - Tables
+            </span>
+          </span>
+          Tables
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>A majority of buttons in the site are built from the same base class.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <table class="">
+    <caption>Shelly's Daughters</caption>
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Birthday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Jackie</th>
+            <td>5</td>
+            <td>April 5</td>
+        </tr>
+        <tr>
+            <th scope="row">Beth</th>
+            <td>8</td>
+            <td>January 14</td>
+        </tr>
+    </tbody>
+</table>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;table class=&quot;&quot;&gt;
+    &lt;caption&gt;Shelly&#x27;s Daughters&lt;/caption&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th scope=&quot;col&quot;&gt;Name&lt;/th&gt;
+            &lt;th scope=&quot;col&quot;&gt;Age&lt;/th&gt;
+            &lt;th scope=&quot;col&quot;&gt;Birthday&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;Jackie&lt;/th&gt;
+            &lt;td&gt;5&lt;/td&gt;
+            &lt;td&gt;April 5&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;Beth&lt;/th&gt;
+            &lt;td&gt;8&lt;/td&gt;
+            &lt;td&gt;January 14&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-elements-videos" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-elements-videos">
+          <span class="kss-title__ref">
+              3.11
+            <span class="kss-title__permalink-hash">
+                #Elements - Videos
+            </span>
+          </span>
+          Videos
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>Displays a video from an external source, such as YouTube or Vimeo, without forcing the user to leave the current web page.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <iframe src="https://www.youtube.com/embed/jnk15Wf6xMU?rel=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/105432007" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;iframe src=&quot;https://www.youtube.com/embed/jnk15Wf6xMU?rel=0&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;https://player.vimeo.com/video/105432007&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+      </div>
+
+      </section>
+</article>
+
+<!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="public/kss.js"></script>
+<script src="public/prettify.js"></script>
+<script src="js/styleguide.js"></script>
+
+<script src="js/module-sourcecode.js"></script>
+<script src="js/module-breakpoints.js"></script>
+<script src="js/module-menu-toggle.js"></script>
+<script src="js/module-menu-active.js"></script>
+
+<script>
+  prettyPrint();
+</script>
+
+</body>
+</html>

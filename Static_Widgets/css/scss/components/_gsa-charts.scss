@@ -1,0 +1,15 @@
+.gsa-chart {
+	width: 100%; 
+  	min-height: 300px;
+}
+
+.gsa-chart__title {
+	font-size: 13px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: rem(10) 0 0;
+}
+
+.gsa-chart--short {
+	min-height: 166px;
+}

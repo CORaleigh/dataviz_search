@@ -1,0 +1,55 @@
+@@include('../inc/head.html')
+
+
+<div class="gsa-widget">
+	<!-- Widget Header -->
+	<header class="gsa-widget__header">
+		<h2 class="gsa-widget__title no-margin">Pay of Dispute a Citation</h2>
+	</header>
+	<!-- Google Chart -->
+	<div class="panel">
+		<header class="panel__header">
+			<h3 class="panel__title">Enter Your Information</h3>
+		</header>
+		<div class="panel__content">
+			<form action="">
+				<div class="field">
+					<label for="citation-number">Citation Number</label>
+					<input id="citation-number" type="text" placeholder="###">
+				</div>
+				<div class="field">
+					<label for="license-plate">License Plate:</label>
+					<input id="license-plate" type="text" placeholder="###ABC">
+				</div>
+				<div class="field select--wide select--plain">
+					<label for="state-province">State/Province:</label>
+					<select name="" id="state-province" class="select-boxit">
+						<option value="">Select One</option>
+						<option value="">option 1</option>
+						<option value="">option 2</option>
+					</select>
+				</div>
+				<div class="fieldset radios">
+					<fieldset>
+						<legend class="visuallyhidden"><span>Select an option:</span></legend>
+						<ul>
+							<li class="field">
+								<input type="radio" class="radio" name="pay-dispute-options" id="pay-option" />
+								<label for="pay-option">Pay Citation</label>
+							</li>
+							<li class="field">
+								<input type="radio" class="radio" name="pay-dispute-options" id="dispute-option" />
+								<label for="dispute-option">Dispute Option</label>
+							</li>
+						</ul>
+					</fieldset>
+				</div>
+				<button class="primary button--lrg" type="submit">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+@@include('../inc/footer.html')
+	
