@@ -41,7 +41,7 @@
 	right: 0;
 	width: rem(50);
 	height: 100%;
-	background-color: $blue;
+	background-color: darken($blue, 5%);
 	padding: rem(12) rem(16);
 	text-align: center;
 	@include transition(all .25s ease-in-out);

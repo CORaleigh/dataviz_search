@@ -35,6 +35,7 @@
   &:focus {
     background-color: shade($action-color, 20%);
     color: #fff;
+    text-decoration: none;
   }
 
   &:disabled {
@@ -44,6 +45,18 @@
     &:hover {
       background-color: $action-color;
     }
+  }
+
+  .gsa-icon-arrow-right:before {
+    font-size: 15px;
+    vertical-align: top;
+    margin-top: 0px;
+    position: relative;
+    top: -1px;
+  }
+
+  + .button {
+    margin-top: rem(15);
   }
 }
 
@@ -83,7 +96,7 @@
 
 .button--lrg {
   font-size: rem(18);
-  font-weight: bold;
+  font-weight: 500;
   min-width: rem(130);
   line-height: .75;
 }

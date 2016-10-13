@@ -22,7 +22,7 @@
 		padding-left: rem(73);
 	}
 
-	[class^="gsa-icon"] {
+	> [class^="gsa-icon"] {
 		position: absolute;
 		top: rem(10);
 		left: rem(10);
@@ -42,7 +42,7 @@
 	}
 }
 
-.location-info__item--police {
+.location-info__item--lrg {
 	[class^="gsa-icon"] {
 		top: rem(18);
 	}
@@ -50,7 +50,7 @@
 
 .location-info__title {
 	@extend .location-info__label;
-	color: $medium-gray;
+	color: darken($medium-gray, 20%);
 	margin: 0 0 rem(5);
 	//display: block;
 
@@ -138,11 +138,11 @@
 
 .location-info__rating-total {
 	font-size: rem(20);
-	color: $gold;
+	color: darken($gold, 10%);
 	font-weight: bold;
 	vertical-align: top;
 	display:inline-block;
-	margin-right: rem(10);
+	margin-right: rem(7);
 }
 
 .stars-1 {

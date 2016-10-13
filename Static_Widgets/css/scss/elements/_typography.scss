@@ -62,11 +62,19 @@ a {
   &:hover {
     color: shade($action-color, 25%);
     text-decoration: underline;
+
+    &:before {
+      display: none;
+    }
   }
 
   &:before {
     display: none;
   }
+}
+
+a[href^="mailto:"]:after {
+  display: none !important;
 }
 
 

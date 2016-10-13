@@ -2,12 +2,25 @@
 	display: flex;
 }
 
+.cta-stats--border {
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+.cta-stats--border-bottom {
+	border-bottom: 1px solid #ffffff;
+}
+
 .cta-stats__icon {
 	font-size: rem(65);
 	height: 90px;
 	line-height: 90px;
 	text-align: center;
 	flex: 1;
+
+	&:before {
+		vertical-align: middle;
+	}
 }
 
 .cta-stats__item {
@@ -24,4 +37,17 @@
 .cta-stats__item-count {
 	font-size: rem(40);
 	line-height: 1;
+
+	&.pull-left {
+		padding-top: rem(10);
+		margin-right: rem(5);
+	}
+}
+
+.cta-stats__count-label {
+	line-height: 1;
+	font-size: rem(13);
+	text-transform: uppercase;
+	padding-top: rem(20);
+	display: block;
 }

@@ -68,8 +68,9 @@
 // Import all of the custom components
 // -----------------------------------------
 @import "components/gsa-widget";
+@import "components/factoid";
 .gsa-widget {
-	//@import "components/alerts";
+	@import "components/alerts";
 	@import "components/panels";
 	@import "components/gsa-charts";
 	@import "components/quick-links";
@@ -82,6 +83,9 @@
 	@import "components/file-downloads";
 	@import "components/cta-stats";
 	@import "components/arcgis-map";
+	@import "components/cta";
+	@import "components/contact";
+	@import "components/ad-space";
 	// @import "components/partial_name";
 	// @import "components/partial_name";
 	// @import "components/partial_name";

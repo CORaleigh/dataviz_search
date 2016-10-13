@@ -124,7 +124,7 @@
 	}
 
 	@include media(">desktop"){
-		padding: 0 0 rem(10);
+		padding: rem(10) 0 rem(10);
 		margin-top: -10px;
 	}
 }

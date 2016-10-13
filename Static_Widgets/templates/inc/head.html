@@ -53,12 +53,11 @@
 #SearchBox .action {width:15%; background:#DD4B39; margin:0; margin-left:-5px; padding:9px;}
 #search_stats {clear:both; margin-bottom:10px; color:#666; border-bottom:1px solid #ddd; padding:0 2%;}
 .suggestion {padding:7px; color:#666;}
-#keymatch {margin:1em;padding:.5em;background:#fafafa;border:2px solid #e96629;border-radius:10px}
 .g a {font-size:1.4em; font-weight:normal; text-shadow:none; word-wrap:break-word;}
 .content div {margin-bottom:1em; font-family:sans-serif;}
 .content .s {margin:0;}
 .floating-viewer div {margin:0;}
-.url {color:#093; word-wrap:break-word;}
+.url {color:#007928; word-wrap: break-word;display:block;}
 .g {margin:0; font-family:sans-serif; line-height:1.1;}
 .content a:before, .content a:after, #bottom-navigation a:before, #bottom-navigation a:after {display:none;}
 #col2 a {border:0; vertical-align:middle;}
@@ -123,6 +122,16 @@ a[href ^="https://data.raleighnc.gov"][href*="Map"], a[href ^="https://data.rale
 
 
 <style>
+
+/*
+
+- green color updated in above inline styles for .url to fix contrast 508 AA low contrast issue and fix for word break in IE11
+
+ */
+
+/*updated keymatch styles*/
+#keymatch {box-shadow: 0 0 10px rgba(0,0,0,.25);margin:0 0 30px 8px;padding:20px;}
+#keymatch h3 {margin:0;font-weight:bold;line-height:1;}
 
 /* NEW AtlanticBT styles added for wrappers on search page */
 #col2, #col3 { width: 99%; float: none; }
