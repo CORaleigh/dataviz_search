@@ -501,15 +501,6 @@ textarea {
   background-color: #3c61a5;
 }
 
-.gsa-widget .button .gsa-icon-arrow-right:before, .gsa-widget .button--primary .gsa-icon-arrow-right:before,
-.gsa-widget button .gsa-icon-arrow-right:before, .gsa-widget input[type="button"] .gsa-icon-arrow-right:before, .gsa-widget input[type="reset"] .gsa-icon-arrow-right:before, .gsa-widget input[type="submit"] .gsa-icon-arrow-right:before {
-  font-size: 15px;
-  vertical-align: top;
-  margin-top: 0px;
-  position: relative;
-  top: -1px;
-}
-
 .gsa-widget .button + .button, .gsa-widget .button--primary + .button, .gsa-widget .button + .button--primary, .gsa-widget .button--primary + .button--primary,
 .gsa-widget button + .button, .gsa-widget button + .button--primary, .gsa-widget input[type="button"] + .button, .gsa-widget input[type="button"] + .button--primary, .gsa-widget input[type="reset"] + .button, .gsa-widget input[type="reset"] + .button--primary, .gsa-widget input[type="submit"] + .button, .gsa-widget input[type="submit"] + .button--primary {
   margin-top: 0.9375rem;
@@ -1131,16 +1122,16 @@ a [class^="gsa-icon-"]:hover, a [class^="gsa-icon-"]:focus, a [class^="gsa-icon-
   text-decoration: none;
 }
 
-.gsa-icon--sm,
+.gsa-icon--sm:before,
 .selectboxit-default-arrow {
   font-size: 0.6875rem;
 }
 
-.gsa-icon--lrg {
+.gsa-icon--lrg:before {
   font-size: 1.25rem;
 }
 
-.gsa-icon--xl {
+.gsa-icon--xl:before {
   font-size: 1.75rem;
 }
 
