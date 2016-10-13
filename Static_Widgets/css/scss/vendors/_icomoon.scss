@@ -37,18 +37,18 @@ a {
 }
 
 // small icons
-.gsa-icon--sm,                
+.gsa-icon--sm:before,                
 .selectboxit-default-arrow {
   font-size: rem(11);
 }
 
 // large icons
-.gsa-icon--lrg {              
+.gsa-icon--lrg:before {              
   font-size: rem(20);
 }
 
 // large icons
-.gsa-icon--xl {              
+.gsa-icon--xl:before {              
   font-size: rem(28);
 }
 
