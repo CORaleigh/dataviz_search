@@ -1,0 +1,703 @@
+[
+{
+job_type: "Part-Time",
+hits: "772",
+minimum_salary: "8.25",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Afterschool Counselor - Method Community Park",
+daystilexpires: "0"
+},
+{
+maximum_salary: "67557.76",
+job_type: "Full-Time",
+hits: "2759",
+minimum_salary: "38769.69",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Assistant Director - Optimist Community Center",
+daystilexpires: "0"
+},
+{
+maximum_salary: "90533.87",
+job_type: "Full-Time",
+hits: "118",
+minimum_salary: "49481.05",
+department: "PU Sewer Maintenance",
+category: "Management,Wastewater,Utilities",
+job_title: "Assistant Water & Sewer Superintendent",
+daystilexpires: "1"
+},
+{
+maximum_salary: "61276.88",
+job_type: "Full-Time",
+hits: "1030",
+minimum_salary: "35165.25",
+department: "PU Meters",
+category: "Waste Management,Water Agency",
+job_title: "Utilities Supervisor I",
+daystilexpires: "1"
+},
+{
+maximum_salary: "121324.06",
+job_type: "Full-Time",
+hits: "2577",
+minimum_salary: "66309.35",
+department: "Human Resources",
+category: "Human Resources",
+job_title: "Assistant HR Director, Compensation/Benefits/HRIS",
+daystilexpires: "2"
+},
+{
+maximum_salary: "90533.87",
+job_type: "Full-Time",
+hits: "200",
+minimum_salary: "49481.05",
+department: "PU Meters",
+category: "Management,Water Agency",
+job_title: "Asst. Water and Sewer Superintendent",
+daystilexpires: "2"
+},
+{
+maximum_salary: "90533.87",
+job_type: "Full-Time",
+hits: "699",
+minimum_salary: "49481.05",
+department: "Engineering Services",
+category: "Engineering,Project Management",
+job_title: "Project Engineer II",
+daystilexpires: "2"
+},
+{
+maximum_salary: "50412.62",
+job_type: "Full-Time",
+hits: "83",
+minimum_salary: "30377.08",
+department: "PU Sewer Maintenance",
+category: "Utilities,Construction Maintenance",
+job_title: "PU Equipment Operator III",
+daystilexpires: "2"
+},
+{
+maximum_salary: "48012.4",
+job_type: "Full-Time",
+hits: "56",
+minimum_salary: "28930.53",
+department: "PU Sewer Maintenance",
+category: "Utilities",
+job_title: "PU Equipment Operator II",
+daystilexpires: "2"
+},
+{
+maximum_salary: "48012.4",
+job_type: "Full-Time",
+hits: "87",
+minimum_salary: "28930.53",
+department: "PU Water Distribution",
+category: "Water Agency,Utilities",
+job_title: "PU Equipment Operator II",
+daystilexpires: "2"
+},
+{
+maximum_salary: "48012.04",
+job_type: "Full-Time",
+hits: "350",
+minimum_salary: "28930.53",
+department: "PU Meters",
+category: "Water Agency",
+job_title: "Lead Water Meter Mechanic",
+daystilexpires: "2"
+},
+{
+maximum_salary: "70935.67",
+job_type: "Full-Time",
+hits: "20",
+minimum_salary: "40708.17",
+department: "PU Water Distribution",
+category: "Utilities",
+job_title: "Utilities Supervisor III",
+daystilexpires: "4"
+},
+{
+maximum_salary: "70935.67",
+job_type: "Full-Time",
+hits: "1040",
+minimum_salary: "40708.17",
+department: "Solid Waste Administration",
+category: "Sanitation",
+job_title: "Operations Superintendent",
+daystilexpires: "5"
+},
+{
+maximum_salary: "64340.74",
+job_type: "Full-Time",
+hits: "235",
+minimum_salary: "36923.51",
+department: "Solid Waste Administration",
+category: "Safety",
+job_title: "SWS Safety Coordinator",
+daystilexpires: "5"
+},
+{
+maximum_salary: "45725.74",
+job_type: "Full-Time",
+hits: "989",
+minimum_salary: "27552.89",
+department: "PU Sewer Maintenance",
+category: "Wastewater,Maintenance,Utilities",
+job_title: "PU Equipment Operator I",
+daystilexpires: "5"
+},
+{
+maximum_salary: "20",
+job_type: "Part-Time",
+hits: "69",
+minimum_salary: "10",
+department: "PRC Recreation",
+category: "Recreation",
+job_title: "Recreation Instructor (Specialized Recreation)",
+daystilexpires: "5"
+},
+{
+maximum_salary: "90533.87",
+job_type: "Full-Time",
+hits: "32",
+minimum_salary: "49481.05",
+department: "Transportation Services",
+category: "Planning and Development",
+job_title: "Senior Planner",
+daystilexpires: "6"
+},
+{
+maximum_salary: "45725.74",
+job_type: "Full-Time",
+hits: "542",
+minimum_salary: "27552.89",
+department: "PW Street Maintenance",
+category: "Grounds & Landscaping,Green-Collar/Environmental",
+job_title: "TFS Downtown Equipment Operator I",
+daystilexpires: "7"
+},
+{
+maximum_salary: "45725.74",
+job_type: "Full-Time",
+hits: "568",
+minimum_salary: "27552.89",
+department: "PU Sewer Maintenance",
+category: "Utilities",
+job_title: "PU Equipment Operator I",
+daystilexpires: "7"
+},
+{
+maximum_salary: "64340.74",
+job_type: "Full-Time",
+hits: "759",
+minimum_salary: "36923.51",
+department: "Land Development",
+category: "Code Enforcement,Land Use",
+job_title: "Zoning Inspector",
+daystilexpires: "8"
+},
+{
+maximum_salary: "50412.62",
+job_type: "Full-Time",
+hits: "779",
+minimum_salary: "30377.08",
+department: "PW Street Maintenance",
+category: "Grounds & Landscaping",
+job_title: "TFS Downtown Assistant Crew Supervisor",
+daystilexpires: "8"
+},
+{
+maximum_salary: "86222.74",
+job_type: "Full-Time",
+hits: "617",
+minimum_salary: "47124.81",
+department: "IT Application Support",
+category: "Graphic Arts,Web Design",
+job_title: "Senior Web Developer",
+daystilexpires: "9"
+},
+{
+maximum_salary: "50412.62",
+job_type: "Full-Time",
+hits: "134",
+minimum_salary: "30377.08",
+department: "PW Street Maintenance",
+category: "Transportation",
+job_title: "TFS Stormwater Equipment Operator III",
+daystilexpires: "9"
+},
+{
+maximum_salary: "45725.74",
+job_type: "Full-Time",
+hits: "260",
+minimum_salary: "27552.89",
+department: "Transportation Services",
+category: "Building & Grounds Cleaning and Maintenance",
+job_title: "Highway Division - Equipment Operator I",
+daystilexpires: "9"
+},
+{
+maximum_salary: "41474.6",
+job_type: "Full-Time",
+hits: "453",
+minimum_salary: "24991.28",
+department: "PW Street Maintenance",
+category: "Transportation",
+job_title: "TFS Service Specialist",
+daystilexpires: "9"
+},
+{
+maximum_salary: "70935.67",
+job_type: "Full-Time",
+hits: "655",
+minimum_salary: "40708.17",
+department: "Engineering Services",
+category: "Engineering,Management",
+job_title: "Assessments Supervisor",
+daystilexpires: "10"
+},
+{
+job_type: "Part-Time",
+hits: "503",
+minimum_salary: "12",
+department: "PRC School Based Programs",
+category: "Parks and Recreation",
+job_title: "Before/After School Program Director- River Bend Elementary School",
+daystilexpires: "11"
+},
+{
+maximum_salary: "67557.76",
+job_type: "Full-Time",
+hits: "1278",
+minimum_salary: "38769",
+department: "PW Street Maintenance",
+category: "Transportation",
+job_title: "Transportation Inspections Coordinator",
+daystilexpires: "11"
+},
+{
+maximum_salary: "64340.74",
+job_type: "Full-Time",
+hits: "467",
+minimum_salary: "36923.51",
+department: "Facilities Maint-Eng Svcs",
+category: "Maintenance",
+job_title: "Maintenance Mechanic III-Plumbing/ HVAC",
+daystilexpires: "11"
+},
+{
+maximum_salary: "48012.4",
+job_type: "Full-Time",
+hits: "416",
+minimum_salary: "28930.53",
+department: "PU Sewer Maintenance",
+category: "Construction Trades",
+job_title: "PU Equipment Operator II",
+daystilexpires: "11"
+},
+{
+maximum_salary: "47748.52",
+job_type: "Full-Time",
+hits: "261",
+minimum_salary: "40708.17",
+department: "Planning",
+category: "Planning and Development",
+job_title: "Site Review Specialist",
+daystilexpires: "11"
+},
+{
+maximum_salary: "55579.94",
+job_type: "Full-Time",
+hits: "1866",
+minimum_salary: "33490.72",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Aquatics Recreation Facilities & Program Supervisor I",
+daystilexpires: "12"
+},
+{
+maximum_salary: "48012.04",
+job_type: "Full-Time",
+hits: "106",
+minimum_salary: "28930.53",
+department: "PU Meters",
+category: "Water Agency,Maintenance,Utilities",
+job_title: "Water Meter Mechanic",
+daystilexpires: "12"
+},
+{
+maximum_salary: "45725.74",
+job_type: "Full-Time",
+hits: "83",
+minimum_salary: "27552.89",
+department: "PW Street Maintenance",
+category: "Transportation,Maintenance",
+job_title: "TFS Stormwater Equipment Operator I",
+daystilexpires: "12"
+},
+{
+job_type: "Part-Time",
+hits: "45",
+minimum_salary: "10.5",
+department: "PRCR Resources",
+category: "Recreation,Parks and Recreation ,Natural Resources",
+job_title: "Park Assistant LGERS",
+daystilexpires: "13"
+},
+{
+maximum_salary: "61276.88",
+job_type: "Full-Time",
+hits: "24",
+minimum_salary: "35165.25",
+department: "PU Water Distribution",
+category: "Utilities",
+job_title: "Utilities Supervisor I",
+daystilexpires: "13"
+},
+{
+job_type: "Part-Time",
+hits: "1185",
+minimum_salary: "10",
+department: "PRC School Based Programs",
+category: "Parks and Recreation",
+job_title: "Program Specialist- School Based Programs",
+daystilexpires: "14"
+},
+{
+job_type: "Part-Time",
+hits: "1490",
+minimum_salary: "8.25",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Afterschool Counselor - Teen Programs",
+daystilexpires: "17"
+},
+{
+job_type: "Full-Time",
+hits: "10648",
+minimum_salary: "34281.59",
+department: "Police Field Operations",
+category: "Public Safety,Law Enforcement",
+job_title: "Police Officer",
+daystilexpires: "18"
+},
+{
+maximum_salary: "90533.87",
+job_type: "Full-Time",
+hits: "221",
+minimum_salary: "49481.05",
+department: "Transit Operations - Trans Svc",
+category: "Transportation,Management,Customer Service",
+job_title: "Union Station Manager",
+daystilexpires: "19"
+},
+{
+job_type: "Part-Time",
+hits: "2158",
+minimum_salary: "12",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Track Out Counselor - Specialized Recreation and Inclusion Services",
+daystilexpires: "24"
+},
+{
+maximum_salary: "74482.46",
+job_type: "Full-Time",
+hits: "330",
+minimum_salary: "42743.58",
+department: "PRCR Resources",
+category: "Management,Parks",
+job_title: "Moore Square Park Director",
+daystilexpires: "31"
+},
+{
+job_type: "Intern",
+hits: "3",
+minimum_salary: "7.25",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Laurel Hills Community Center-Intern",
+daystilexpires: "47"
+},
+{
+job_type: "Intern",
+hits: "4",
+minimum_salary: "7.25",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Marsh Creek Community Center-Intern",
+daystilexpires: "47"
+},
+{
+job_type: "Part-Time",
+hits: "22",
+minimum_salary: "8.25",
+department: "PRCR Resources",
+category: "Recreation,Parks and Recreation ,Internship,Arts",
+job_title: "Arts Curator Intern",
+daystilexpires: "47"
+},
+{
+job_type: "Seasonal",
+hits: "202",
+minimum_salary: "11.28",
+department: "PRC Parks",
+category: "Grounds & Landscaping,Horticulture",
+job_title: "Parks District Crew Gardener (part-time)",
+daystilexpires: "47"
+},
+{
+job_type: "Seasonal",
+hits: "224",
+minimum_salary: "11",
+department: "PRCR Parks Urban Trees",
+category: "Urban Forestry",
+job_title: "Equipment Operator I - Parks Urban Forestry Division",
+daystilexpires: "47"
+},
+{
+job_type: "Part-Time",
+hits: "377",
+minimum_salary: "9.25",
+department: "PRC Recreation",
+category: "Parks and Recreation ,Internship",
+job_title: "Specialized Recreation and Inclusion Services Therapeutic Recreation Intern",
+daystilexpires: "47"
+},
+{
+job_type: "Intern",
+hits: "668",
+minimum_salary: "7.25",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Lake Lynn Community Center Intern",
+daystilexpires: "47"
+},
+{
+job_type: "Part-Time",
+hits: "679",
+minimum_salary: "9",
+department: "PRC Recreation",
+category: "Internship",
+job_title: "Intern- Risk Management Project Analyst",
+daystilexpires: "47"
+},
+{
+job_type: "Intern",
+hits: "683",
+minimum_salary: "9",
+department: "PRC Recreation",
+category: "Internship",
+job_title: "Intern- Lake Lynn School Based Programs",
+daystilexpires: "47"
+},
+{
+job_type: "Intern",
+hits: "1715",
+minimum_salary: "10.5",
+department: "PRCR Resources",
+category: "Parks and Recreation",
+job_title: "Adventure Program Intern",
+daystilexpires: "47"
+},
+{
+job_type: "Part-Time",
+hits: "634",
+minimum_salary: "9.5",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Senior Lifeguard",
+daystilexpires: "78"
+},
+{
+job_type: "Part-Time",
+hits: "2754",
+minimum_salary: "11.25",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Aquatics Pool Manager",
+daystilexpires: "78"
+},
+{
+maximum_salary: "20",
+job_type: "Part-Time",
+hits: "788",
+minimum_salary: "10",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Water Exercise Instructor",
+daystilexpires: "84"
+},
+{
+maximum_salary: "9.25",
+job_type: "Part-Time",
+hits: "1076",
+minimum_salary: "8.25",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Lifeguard",
+daystilexpires: "84"
+},
+{
+maximum_salary: "9",
+job_type: "Part-Time",
+hits: "616",
+minimum_salary: "8",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Lifeguard - Not Certified - Seasonal Aquatic Vocational Education [SAVE] program",
+daystilexpires: "84"
+},
+{
+job_type: "Part-Time",
+hits: "2938",
+minimum_salary: "12",
+department: "PRC Recreation",
+category: "Parks and Recreation ,Sports & Physical Education,Sports",
+job_title: "Tennis Coach"
+},
+{
+job_type: "Part-Time",
+hits: "3136",
+minimum_salary: "7.25",
+department: "PRCR Resources",
+category: "Parks and Recreation ,Custodial,Building & Grounds Cleaning and Maintenance",
+job_title: "Caretaker for Pullen Attractions"
+},
+{
+job_type: "Part-Time",
+hits: "4470",
+minimum_salary: "9.25",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Recreation Leader - Community Centers"
+},
+{
+maximum_salary: "50412.62",
+job_type: "Full-Time",
+hits: "1540",
+minimum_salary: "30377.08",
+department: "PW Street Maintenance",
+category: "Transportation",
+job_title: "Asphalt Equipment Operator III"
+},
+{
+maximum_salary: "45725.74",
+job_type: "Full-Time",
+hits: "680",
+minimum_salary: "27552.89",
+department: "PW Street Maintenance",
+category: "Transportation",
+job_title: "TFS Asphalt Equipment Operator I"
+},
+{
+maximum_salary: "30",
+job_type: "Part-Time",
+hits: "24891",
+minimum_salary: "10",
+department: "PRC Recreation",
+category: "Recreation,Education,Parks and Recreation ,Performing Arts,Athletics & Fitness,Instructor",
+job_title: "Recreation Instructor- Parks Recreation Cultural Resources"
+},
+{
+maximum_salary: "20",
+job_type: "Part-Time",
+hits: "4636",
+minimum_salary: "7.55",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Recreation Instructor - Abbotts Creek Community Center"
+},
+{
+maximum_salary: "18.04",
+job_type: "Seasonal",
+hits: "4787",
+minimum_salary: "17",
+department: "RCC Performing Arts Center",
+category: "Convention",
+job_title: "Stage Technician VI"
+},
+{
+maximum_salary: "18",
+job_type: "Part-Time",
+hits: "4444",
+minimum_salary: "12",
+department: "PRC Recreation",
+category: "Parks and Recreation",
+job_title: "Assistant Tennis Professional - Millbrook Tennis Center"
+},
+{
+maximum_salary: "16.97",
+job_type: "Seasonal",
+hits: "3921",
+minimum_salary: "16",
+department: "RCC Performing Arts Center",
+category: "Convention",
+job_title: "Stage Technician V"
+},
+{
+maximum_salary: "15.91",
+job_type: "Seasonal",
+hits: "3734",
+minimum_salary: "15",
+department: "RCC Performing Arts Center",
+category: "Convention",
+job_title: "Stage Technician IV"
+},
+{
+maximum_salary: "14.85",
+job_type: "Seasonal",
+hits: "4048",
+minimum_salary: "14",
+department: "RCC Performing Arts Center",
+category: "Convention",
+job_title: "Stage Technician III"
+},
+{
+maximum_salary: "13.79",
+job_type: "Seasonal",
+hits: "6009",
+minimum_salary: "13",
+department: "RCC Performing Arts Center",
+category: "Convention",
+job_title: "Stage Technician II"
+},
+{
+maximum_salary: "12.73",
+job_type: "Seasonal",
+hits: "19130",
+minimum_salary: "12",
+department: "RCC Performing Arts Center",
+category: "Convention",
+job_title: "Stage Technician I"
+},
+{
+maximum_salary: "9.27",
+job_type: "Seasonal",
+hits: "743",
+minimum_salary: "9",
+department: "PW Street Maintenance",
+category: "Grounds & Landscaping",
+job_title: "TFS Leaf Collection Laborer"
+},
+{
+maximum_salary: "9",
+job_type: "Part-Time",
+hits: "16293",
+minimum_salary: "9",
+department: "PRC School Based Programs",
+category: "Parks and Recreation",
+job_title: "Year Round Counselor- Before/After School Programs"
+},
+{
+maximum_salary: "8",
+job_type: "Part-Time",
+hits: "5188",
+minimum_salary: "7.25",
+department: "PRCR Resources",
+category: "Parks and Recreation",
+job_title: "Ride Operator at Pullen Attractions"
+}
+]
