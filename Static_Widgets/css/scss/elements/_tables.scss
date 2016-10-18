@@ -100,4 +100,10 @@ table.gsa-table {
   tbody tr:nth-child(n+6) {
     display: none;
   }
+
+  tbody tr.row-open {
+    // @include media("<phablet_640"){
+      display: table-row;
+    // }
+  }
 }

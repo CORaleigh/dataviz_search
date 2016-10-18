@@ -688,6 +688,13 @@ textarea {
 
 .gsa-widget .field--append-submit input {
   margin-right: 0.625rem;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+.gsa-widget .field--append-submit [type="submit"] {
+  -ms-flex: .7;
+  flex: .7;
 }
 
 .gsa-widget ul,
@@ -782,6 +789,10 @@ textarea {
 
 .gsa-widget .gsa-table--open-jobs tbody tr:nth-child(n+6) {
   display: none;
+}
+
+.gsa-widget .gsa-table--open-jobs tbody tr.row-open {
+  display: table-row;
 }
 
 /*
