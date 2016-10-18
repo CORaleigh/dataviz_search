@@ -78,7 +78,7 @@
 		margin: 0 rem(40) 0 rem(20);
 	}
 
-	@include media(">tablet", "<=desktop"){
+	@include media(">=tablet", "<=desktop"){
 		margin: 0 rem(5);
 	}
 }
@@ -104,7 +104,7 @@
 		font-size: rem(14);
 	}
 
-	@include media(">tablet", "<=desktop"){
+	@include media(">=tablet", "<=desktop"){
 		font-size: rem(12);
 	}
 }
@@ -120,7 +120,7 @@
 		width: rem(101);
 	}
 
-	@include media(">tablet", "<=desktop"){
+	@include media(">=tablet", "<=desktop"){
 		margin-left: rem(67);
 		width: rem(67);
 	}

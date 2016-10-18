@@ -1868,7 +1868,7 @@ a [class^="gsa-icon-"]:hover, a [class^="gsa-icon-"]:focus, a [class^="gsa-icon-
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .gsa-widget .location-info__day {
     margin: 0 0.3125rem;
   }
@@ -1899,7 +1899,7 @@ a [class^="gsa-icon-"]:hover, a [class^="gsa-icon-"]:focus, a [class^="gsa-icon-
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .gsa-widget .location-info__extra-day,
   .gsa-widget .location-info__extra-hours {
     font-size: 0.75rem;
@@ -1920,7 +1920,7 @@ a [class^="gsa-icon-"]:hover, a [class^="gsa-icon-"]:focus, a [class^="gsa-icon-
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .gsa-widget .location-info__extra-day {
     margin-left: 4.1875rem;
     width: 4.1875rem;
