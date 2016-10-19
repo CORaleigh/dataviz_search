@@ -319,38 +319,6 @@ var gsa = {
                 $('.google-map-container').find('img:not([alt])').attr('alt', '');
             }
         }
-    },
-
-    // Enquire Functions
-    fireEnquire: function() {
-
-        enquire.register("only screen and (min-width: 481px)", {
-            match : function() {
-
-            }
-
-        });
-
-        enquire.register("only screen and (min-width: 641px)", {
-            match : function() {
-            }
-
-        });
-
-        enquire.register("only screen and (min-width: 769px)", {
-
-            match : function() {
-            }
-            
-        });
-
-        enquire.register("only screen and (min-width: 1025px)", {
-
-            match : function() {
-            }
-            
-
-        });
     }
 }
 
@@ -358,7 +326,6 @@ var gsa = {
 var init = {
     ready: function() {
         gsa.toggle.init();
-        gsa.fireEnquire();
         gsa.customSelect.init();
         gsa.toggle.showAllTableRows();
 
