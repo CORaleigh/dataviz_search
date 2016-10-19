@@ -564,6 +564,49 @@ table.gsa-table td { text-align: left; }
 			<div class="cta-parks__img"><img src="/img/g_tree.png" alt=""></div>
 		</a>
 	</div>
+
+
+	
+
+	<!-- Geolocation Prompt Dialog -->
+	<div id="dialog-geolocation-prompt" title="">
+	  <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+	</div>
+
+
+	<script>
+
+		$(document).ready(function() {
+
+			// opeen dialog if 'geolocation_prompt' cookie not set
+	            if ( Cookies.get('geolocation_prompt') == undefined ) {
+
+	                // open if cookie not set
+	                $("#dialog-geolocation-prompt").dialog({
+	                    autoOpen: true,
+	                    width: Math.min(320, $(window).width() * .8),
+	                    modal: true,
+	                    draggable: true,
+	                    resizable: false
+
+	                    // need to add buttons and button functions for updating location
+	                });
+
+	                // set cookie
+	                Cookies.set('geolocation_prompt', 'true');
+
+	                //Cookies.remove('geolocation_prompt');
+	                
+	                console.log('cookie should be set now');
+
+	            }
+
+			
+		});
+
+	</script>
+
+
 </div>
 
 
@@ -699,6 +742,7 @@ table.gsa-table td { text-align: left; }
 
     <!-- Init Functions -->
     <script src="/js/init.js"></script>
+
 </body>
 </html>
 
