@@ -242,7 +242,6 @@ table.gsa-table td { text-align: left; }
 
       function initMap() {
 
-      	// TODO: city of raleigh to wire up dynamic location based on location form
         var currentLocation = {lat: 35.787743, lng: -78.644257};
 
         map = new google.maps.Map(document.getElementById('google-map-container'), {
@@ -279,6 +278,47 @@ table.gsa-table td { text-align: left; }
           infowindow.open(map, this);
         });
       }
+
+
+      $(document).ready(function() {
+			if ("geolocation" in navigator){	           
+           		navigator.geolocation.getCurrentPosition(show_location, show_error, {timeout:1000, enableHighAccuracy: true}); 
+		    } else {
+		    	alert("Browser doesn't support geolocation!");
+		    }
+
+			function show_location(position){
+			    infoWindow = new google.maps.InfoWindow({map: map});
+			    var pos = {lat: position.coords.latitude, lng: position.coords.longitude};
+			    var service = new google.maps.places.PlacesService(map);
+	                service.nearbySearch({
+			          location: pos,
+			          radius: 6000,
+			          type: ['park']
+			        }, callback);
+			    infoWindow.setPosition(pos);
+			    infoWindow.setContent('User Location found.');
+			    map.setCenter(pos);
+			}
+
+			function show_error(error){
+			   switch(error.code) {
+			        case error.PERMISSION_DENIED:
+			            alert("Permission denied by user.");
+			            break;
+			        case error.POSITION_UNAVAILABLE:
+			            alert("Location position unavailable.");
+			            break;
+			        case error.TIMEOUT:
+			            alert("Request timeout.");
+			            break;
+			        case error.UNKNOWN_ERROR:
+			            alert("Unknown error.");
+			            break;
+			    }
+			}
+		});
+
 	</script>
 	<!--
 	This example requires the Places library. Include the libraries=places
@@ -564,49 +604,6 @@ table.gsa-table td { text-align: left; }
 			<div class="cta-parks__img"><img src="/img/g_tree.png" alt=""></div>
 		</a>
 	</div>
-
-
-	
-
-	<!-- Geolocation Prompt Dialog -->
-	<div id="dialog-geolocation-prompt" title="">
-	  <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
-	</div>
-
-
-	<script>
-
-		$(document).ready(function() {
-
-			// opeen dialog if 'geolocation_prompt' cookie not set
-	            if ( Cookies.get('geolocation_prompt') == undefined ) {
-
-	                // open if cookie not set
-	                $("#dialog-geolocation-prompt").dialog({
-	                    autoOpen: true,
-	                    width: Math.min(320, $(window).width() * .8),
-	                    modal: true,
-	                    draggable: true,
-	                    resizable: false
-
-	                    // need to add buttons and button functions for updating location
-	                });
-
-	                // set cookie
-	                Cookies.set('geolocation_prompt', 'true');
-
-	                //Cookies.remove('geolocation_prompt');
-	                
-	                console.log('cookie should be set now');
-
-	            }
-
-			
-		});
-
-	</script>
-
-
 </div>
 
 
