@@ -39,9 +39,9 @@ var gsa = {
                     var $toggleTarget = $(this).data('target');
                     if( $(this).hasClass('open-table') ) {
                         $(this).html($toggleButtonOpened);
-                        $('#' + $toggleTarget).find('tbody tr:hidden').addClass('row-open').slideToggle('fast');
+                        $('#' + $toggleTarget).find('tbody tr:hidden').addClass('row-open');
                     } else {
-                        $('#' + $toggleTarget).find('tbody .row-open').slideToggle('fast').removeClass('row-open');
+                        $('#' + $toggleTarget).find('tbody .row-open').removeClass('row-open');
                         $(this).html($toggleButtonClosed);
                     }
                 });
@@ -319,38 +319,6 @@ var gsa = {
                 $('.google-map-container').find('img:not([alt])').attr('alt', '');
             }
         }
-    },
-
-    // Enquire Functions
-    fireEnquire: function() {
-
-        enquire.register("only screen and (min-width: 481px)", {
-            match : function() {
-
-            }
-
-        });
-
-        enquire.register("only screen and (min-width: 641px)", {
-            match : function() {
-            }
-
-        });
-
-        enquire.register("only screen and (min-width: 769px)", {
-
-            match : function() {
-            }
-            
-        });
-
-        enquire.register("only screen and (min-width: 1025px)", {
-
-            match : function() {
-            }
-            
-
-        });
     }
 }
 
@@ -358,7 +326,6 @@ var gsa = {
 var init = {
     ready: function() {
         gsa.toggle.init();
-        gsa.fireEnquire();
         gsa.customSelect.init();
         gsa.toggle.showAllTableRows();
 

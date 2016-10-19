@@ -38,14 +38,12 @@
 
 // Import all of the core elements
 // -----------------------------------------
-.gsa-widget {
-	@import "elements/typography";
-	@import "elements/buttons";
-	@import "elements/forms";
-	@import "elements/lists";
-	@import "elements/media";
-	@import "elements/tables";
-}
+//@import "elements/typography";
+@import "elements/buttons";
+@import "elements/forms";
+@import "elements/lists";
+@import "elements/media";
+@import "elements/tables";
 
 
 // Import any 3rd party vendors first, so
@@ -69,27 +67,25 @@
 // -----------------------------------------
 @import "components/gsa-widget";
 @import "components/factoid";
-.gsa-widget {
-	@import "components/alerts";
-	@import "components/panels";
-	@import "components/gsa-charts";
-	@import "components/quick-links";
-	@import "components/google-image";
-	@import "components/google-map";
-	@import "components/weather";
-	@import "components/cta-parks";
-	@import "components/location-info";
-	@import "components/park-extras";
-	@import "components/file-downloads";
-	@import "components/cta-stats";
-	@import "components/arcgis-map";
-	@import "components/cta";
-	@import "components/contact";
-	@import "components/ad-space";
-	// @import "components/partial_name";
-	// @import "components/partial_name";
-	// @import "components/partial_name";
-}
+@import "components/alerts";
+@import "components/panels";
+@import "components/gsa-charts";
+@import "components/quick-links";
+@import "components/google-image";
+@import "components/google-map";
+@import "components/weather";
+@import "components/cta-parks";
+@import "components/location-info";
+@import "components/park-extras";
+@import "components/file-downloads";
+@import "components/cta-stats";
+@import "components/arcgis-map";
+@import "components/cta";
+@import "components/contact";
+@import "components/ad-space";
+// @import "components/partial_name";
+// @import "components/partial_name";
+// @import "components/partial_name";
 
 
 // Import all of the custom layouts
@@ -98,9 +94,7 @@
 // @import "layouts/header";
 // @import "layouts/content";
 // @import "layouts/footer";
-.gsa-widget {
-	@import "layouts/grid";
-}
+@import "layouts/grid";
 
 
 // Import all of the custom pages
@@ -111,6 +105,5 @@
 // To help our site/application, lets
 // pull in any system helpers
 // -----------------------------------------
-.gsa-widget {
-	@import "utilities/helpers";
-}
+@import "utilities/helpers";
+
