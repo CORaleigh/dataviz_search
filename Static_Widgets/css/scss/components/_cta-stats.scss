@@ -35,8 +35,12 @@
 }
 
 .cta-stats__item-count {
-	font-size: rem(40);
+	font-size: rem(26);
 	line-height: 1;
+
+	@include media(">=phablet"){
+		font-size: rem(40);
+	}
 
 	&.pull-left {
 		padding-top: rem(10);
@@ -46,8 +50,14 @@
 
 .cta-stats__count-label {
 	line-height: 1;
-	font-size: rem(13);
-	text-transform: uppercase;
-	padding-top: rem(20);
 	display: block;
+	text-transform: uppercase;
+	font-size: rem(11);
+	padding-top: rem(13);
+	
+
+	@include media(">=phablet"){
+		font-size: rem(13);
+		padding-top: rem(20);
+	}
 }

@@ -39,9 +39,9 @@ var gsa = {
                     var $toggleTarget = $(this).data('target');
                     if( $(this).hasClass('open-table') ) {
                         $(this).html($toggleButtonOpened);
-                        $('#' + $toggleTarget).find('tbody tr:hidden').addClass('row-open').slideToggle('fast');
+                        $('#' + $toggleTarget).find('tbody tr:hidden').addClass('row-open');
                     } else {
-                        $('#' + $toggleTarget).find('tbody .row-open').slideToggle('fast').removeClass('row-open');
+                        $('#' + $toggleTarget).find('tbody .row-open').removeClass('row-open');
                         $(this).html($toggleButtonClosed);
                     }
                 });

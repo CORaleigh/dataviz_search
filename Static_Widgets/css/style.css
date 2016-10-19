@@ -688,6 +688,13 @@ textarea {
 
 .gsa-widget .field--append-submit input {
   margin-right: 0.625rem;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+.gsa-widget .field--append-submit [type="submit"] {
+  -ms-flex: .7;
+  flex: .7;
 }
 
 .gsa-widget ul,
@@ -782,6 +789,10 @@ textarea {
 
 .gsa-widget .gsa-table--open-jobs tbody tr:nth-child(n+6) {
   display: none;
+}
+
+.gsa-widget .gsa-table--open-jobs tbody tr.row-open {
+  display: table-row;
 }
 
 /*
@@ -1868,7 +1879,7 @@ a [class^="gsa-icon-"]:hover, a [class^="gsa-icon-"]:focus, a [class^="gsa-icon-
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .gsa-widget .location-info__day {
     margin: 0 0.3125rem;
   }
@@ -1899,7 +1910,7 @@ a [class^="gsa-icon-"]:hover, a [class^="gsa-icon-"]:focus, a [class^="gsa-icon-
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .gsa-widget .location-info__extra-day,
   .gsa-widget .location-info__extra-hours {
     font-size: 0.75rem;
@@ -1920,7 +1931,7 @@ a [class^="gsa-icon-"]:hover, a [class^="gsa-icon-"]:focus, a [class^="gsa-icon-
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .gsa-widget .location-info__extra-day {
     margin-left: 4.1875rem;
     width: 4.1875rem;
@@ -2174,8 +2185,14 @@ a [class^="gsa-icon-"]:hover, a [class^="gsa-icon-"]:focus, a [class^="gsa-icon-
 }
 
 .gsa-widget .cta-stats__item-count {
-  font-size: 2.5rem;
+  font-size: 1.625rem;
   line-height: 1;
+}
+
+@media (min-width: 480px) {
+  .gsa-widget .cta-stats__item-count {
+    font-size: 2.5rem;
+  }
 }
 
 .gsa-widget .cta-stats__item-count.pull-left {
@@ -2185,10 +2202,17 @@ a [class^="gsa-icon-"]:hover, a [class^="gsa-icon-"]:focus, a [class^="gsa-icon-
 
 .gsa-widget .cta-stats__count-label {
   line-height: 1;
-  font-size: 0.8125rem;
-  text-transform: uppercase;
-  padding-top: 1.25rem;
   display: block;
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+  padding-top: 0.8125rem;
+}
+
+@media (min-width: 480px) {
+  .gsa-widget .cta-stats__count-label {
+    font-size: 0.8125rem;
+    padding-top: 1.25rem;
+  }
 }
 
 .gsa-widget .arcgis-map {
