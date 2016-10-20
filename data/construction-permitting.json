@@ -1,0 +1,832 @@
+[
+{
+"geoid_blgrp": "371830540111",
+"count_permitnum": "11",
+"sum_estprojectcost": "16123394"
+},
+{
+"geoid_blgrp": "371830540011",
+"count_permitnum": "2",
+"sum_estprojectcost": "12252172"
+},
+{
+"geoid_blgrp": "371830536101",
+"count_permitnum": "13",
+"sum_estprojectcost": "4905243"
+},
+{
+"geoid_blgrp": "371830541062",
+"count_permitnum": "4",
+"sum_estprojectcost": "4131724"
+},
+{
+"geoid_blgrp": "371830542091",
+"count_permitnum": "14",
+"sum_estprojectcost": "3621367"
+},
+{
+"geoid_blgrp": "371830541061",
+"count_permitnum": "5",
+"sum_estprojectcost": "2076232"
+},
+{
+"geoid_blgrp": "371830541131",
+"count_permitnum": "7",
+"sum_estprojectcost": "2070681"
+},
+{
+"geoid_blgrp": "371830517003",
+"count_permitnum": "7",
+"sum_estprojectcost": "2067380"
+},
+{
+"geoid_blgrp": "371830545002",
+"count_permitnum": "5",
+"sum_estprojectcost": "1534560"
+},
+{
+"geoid_blgrp": "371830537231",
+"count_permitnum": "6",
+"sum_estprojectcost": "1506023"
+},
+{
+"geoid_blgrp": "371830526011",
+"count_permitnum": "4",
+"sum_estprojectcost": "1425000"
+},
+{
+"geoid_blgrp": "371830516005",
+"count_permitnum": "4",
+"sum_estprojectcost": "1357000"
+},
+{
+"geoid_blgrp": "371830541055",
+"count_permitnum": "5",
+"sum_estprojectcost": "1254514"
+},
+{
+"geoid_blgrp": "371830527013",
+"count_permitnum": "8",
+"sum_estprojectcost": "1253980"
+},
+{
+"geoid_blgrp": "371830523021",
+"count_permitnum": "12",
+"sum_estprojectcost": "1181950"
+},
+{
+"geoid_blgrp": "371830537093",
+"count_permitnum": "16",
+"sum_estprojectcost": "1147258"
+},
+{
+"geoid_blgrp": "371830527052",
+"count_permitnum": "10",
+"sum_estprojectcost": "1100927"
+},
+{
+"geoid_blgrp": "371830541102",
+"count_permitnum": "3",
+"sum_estprojectcost": "1046794"
+},
+{
+"geoid_blgrp": "371830521011",
+"count_permitnum": "5",
+"sum_estprojectcost": "1035128"
+},
+{
+"geoid_blgrp": "371830537111",
+"count_permitnum": "3",
+"sum_estprojectcost": "984901"
+},
+{
+"geoid_blgrp": "371830501001",
+"count_permitnum": "10",
+"sum_estprojectcost": "977777"
+},
+{
+"geoid_blgrp": "371830537141",
+"count_permitnum": "6",
+"sum_estprojectcost": "954782"
+},
+{
+"geoid_blgrp": "371830540121",
+"count_permitnum": "1",
+"sum_estprojectcost": "950000"
+},
+{
+"geoid_blgrp": "371830514001",
+"count_permitnum": "8",
+"sum_estprojectcost": "889985"
+},
+{
+"geoid_blgrp": "371830524011",
+"count_permitnum": "10",
+"sum_estprojectcost": "845629"
+},
+{
+"geoid_blgrp": "371830536102",
+"count_permitnum": "10",
+"sum_estprojectcost": "841800"
+},
+{
+"geoid_blgrp": "371830504001",
+"count_permitnum": "7",
+"sum_estprojectcost": "793217"
+},
+{
+"geoid_blgrp": "371830542071",
+"count_permitnum": "8",
+"sum_estprojectcost": "792224"
+},
+{
+"geoid_blgrp": "371830516004",
+"count_permitnum": "2",
+"sum_estprojectcost": "628031"
+},
+{
+"geoid_blgrp": "371830505002",
+"count_permitnum": "7",
+"sum_estprojectcost": "601748"
+},
+{
+"geoid_blgrp": "371830526031",
+"count_permitnum": "5",
+"sum_estprojectcost": "570000"
+},
+{
+"geoid_blgrp": "371830517002",
+"count_permitnum": "5",
+"sum_estprojectcost": "496500"
+},
+{
+"geoid_blgrp": "371830518002",
+"count_permitnum": "8",
+"sum_estprojectcost": "492542"
+},
+{
+"geoid_blgrp": "371830530081",
+"count_permitnum": "5",
+"sum_estprojectcost": "486085"
+},
+{
+"geoid_blgrp": "371830525071",
+"count_permitnum": "1",
+"sum_estprojectcost": "472429"
+},
+{
+"geoid_blgrp": "371830515022",
+"count_permitnum": "11",
+"sum_estprojectcost": "458499"
+},
+{
+"geoid_blgrp": "371830525061",
+"count_permitnum": "5",
+"sum_estprojectcost": "456600"
+},
+{
+"geoid_blgrp": "371830526032",
+"count_permitnum": "3",
+"sum_estprojectcost": "453970"
+},
+{
+"geoid_blgrp": "371830537241",
+"count_permitnum": "5",
+"sum_estprojectcost": "433755"
+},
+{
+"geoid_blgrp": "371830509002",
+"count_permitnum": "3",
+"sum_estprojectcost": "432745"
+},
+{
+"geoid_blgrp": "371830517001",
+"count_permitnum": "4",
+"sum_estprojectcost": "431000"
+},
+{
+"geoid_blgrp": "371830537142",
+"count_permitnum": "1",
+"sum_estprojectcost": "429527"
+},
+{
+"geoid_blgrp": "371830541043",
+"count_permitnum": "1",
+"sum_estprojectcost": "413496"
+},
+{
+"geoid_blgrp": "371830540042",
+"count_permitnum": "1",
+"sum_estprojectcost": "396217"
+},
+{
+"geoid_blgrp": "371830523023",
+"count_permitnum": "7",
+"sum_estprojectcost": "380000"
+},
+{
+"geoid_blgrp": "371830528062",
+"count_permitnum": "4",
+"sum_estprojectcost": "371597"
+},
+{
+"geoid_blgrp": "371830540041",
+"count_permitnum": "4",
+"sum_estprojectcost": "299061"
+},
+{
+"geoid_blgrp": "371830541063",
+"count_permitnum": "3",
+"sum_estprojectcost": "296939"
+},
+{
+"geoid_blgrp": "371830540013",
+"count_permitnum": "2",
+"sum_estprojectcost": "292140"
+},
+{
+"geoid_blgrp": "371830524072",
+"count_permitnum": "2",
+"sum_estprojectcost": "290953"
+},
+{
+"geoid_blgrp": "371830524071",
+"count_permitnum": "1",
+"sum_estprojectcost": "285953"
+},
+{
+"geoid_blgrp": "371830510002",
+"count_permitnum": "4",
+"sum_estprojectcost": "269211"
+},
+{
+"geoid_blgrp": "371830515011",
+"count_permitnum": "5",
+"sum_estprojectcost": "269000"
+},
+{
+"geoid_blgrp": "371830516002",
+"count_permitnum": "4",
+"sum_estprojectcost": "269000"
+},
+{
+"geoid_blgrp": "371830541053",
+"count_permitnum": "4",
+"sum_estprojectcost": "258584"
+},
+{
+"geoid_blgrp": "371830514002",
+"count_permitnum": "5",
+"sum_estprojectcost": "256830"
+},
+{
+"geoid_blgrp": "371830506003",
+"count_permitnum": "3",
+"sum_estprojectcost": "236700"
+},
+{
+"geoid_blgrp": "371830527011",
+"count_permitnum": "3",
+"sum_estprojectcost": "235134"
+},
+{
+"geoid_blgrp": "371830528064",
+"count_permitnum": "3",
+"sum_estprojectcost": "228890"
+},
+{
+"geoid_blgrp": "371830519001",
+"count_permitnum": "5",
+"sum_estprojectcost": "224000"
+},
+{
+"geoid_blgrp": "371830507001",
+"count_permitnum": "5",
+"sum_estprojectcost": "214947"
+},
+{
+"geoid_blgrp": "371830515012",
+"count_permitnum": "5",
+"sum_estprojectcost": "213465"
+},
+{
+"geoid_blgrp": "371830528061",
+"count_permitnum": "1",
+"sum_estprojectcost": "204200"
+},
+{
+"geoid_blgrp": "371830540123",
+"count_permitnum": "2",
+"sum_estprojectcost": "198000"
+},
+{
+"geoid_blgrp": "371830525033",
+"count_permitnum": "4",
+"sum_estprojectcost": "193410"
+},
+{
+"geoid_blgrp": "371830525041",
+"count_permitnum": "4",
+"sum_estprojectcost": "191277"
+},
+{
+"geoid_blgrp": "371830505001",
+"count_permitnum": "6",
+"sum_estprojectcost": "180384"
+},
+{
+"geoid_blgrp": "371830526012",
+"count_permitnum": "5",
+"sum_estprojectcost": "179550"
+},
+{
+"geoid_blgrp": "371830537121",
+"count_permitnum": "3",
+"sum_estprojectcost": "178610"
+},
+{
+"geoid_blgrp": "371830527043",
+"count_permitnum": "2",
+"sum_estprojectcost": "168500"
+},
+{
+"geoid_blgrp": "371830540162",
+"count_permitnum": "4",
+"sum_estprojectcost": "152710"
+},
+{
+"geoid_blgrp": "371830540151",
+"count_permitnum": "1",
+"sum_estprojectcost": "149826"
+},
+{
+"geoid_blgrp": "371830518003",
+"count_permitnum": "5",
+"sum_estprojectcost": "141204"
+},
+{
+"geoid_blgrp": "371830542081",
+"count_permitnum": "3",
+"sum_estprojectcost": "139360"
+},
+{
+"geoid_blgrp": "371830537224",
+"count_permitnum": "3",
+"sum_estprojectcost": "124986"
+},
+{
+"geoid_blgrp": "371830527012",
+"count_permitnum": "3",
+"sum_estprojectcost": "122700"
+},
+{
+"geoid_blgrp": "371830545003",
+"count_permitnum": "1",
+"sum_estprojectcost": "117155"
+},
+{
+"geoid_blgrp": "371830507002",
+"count_permitnum": "4",
+"sum_estprojectcost": "116550"
+},
+{
+"geoid_blgrp": "371830516003",
+"count_permitnum": "5",
+"sum_estprojectcost": "115450"
+},
+{
+"geoid_blgrp": "371830540122",
+"count_permitnum": "5",
+"sum_estprojectcost": "110000"
+},
+{
+"geoid_blgrp": "371830545001",
+"count_permitnum": "3",
+"sum_estprojectcost": "108000"
+},
+{
+"geoid_blgrp": "371830526021",
+"count_permitnum": "4",
+"sum_estprojectcost": "105844"
+},
+{
+"geoid_blgrp": "371830525043",
+"count_permitnum": "1",
+"sum_estprojectcost": "105000"
+},
+{
+"geoid_blgrp": "371830540131",
+"count_permitnum": "5",
+"sum_estprojectcost": "104500"
+},
+{
+"geoid_blgrp": "371830540182",
+"count_permitnum": "2",
+"sum_estprojectcost": "104372"
+},
+{
+"geoid_blgrp": "371830507003",
+"count_permitnum": "3",
+"sum_estprojectcost": "98000"
+},
+{
+"geoid_blgrp": "371830537162",
+"count_permitnum": "4",
+"sum_estprojectcost": "96000"
+},
+{
+"geoid_blgrp": "371830537113",
+"count_permitnum": "1",
+"sum_estprojectcost": "95600"
+},
+{
+"geoid_blgrp": "371830503001",
+"count_permitnum": "1",
+"sum_estprojectcost": "93000"
+},
+{
+"geoid_blgrp": "371830520022",
+"count_permitnum": "3",
+"sum_estprojectcost": "89810"
+},
+{
+"geoid_blgrp": "371830537071",
+"count_permitnum": "3",
+"sum_estprojectcost": "83450"
+},
+{
+"geoid_blgrp": "371830512001",
+"count_permitnum": "2",
+"sum_estprojectcost": "74000"
+},
+{
+"geoid_blgrp": "371830538082",
+"count_permitnum": "1",
+"sum_estprojectcost": "72400"
+},
+{
+"geoid_blgrp": "371830525062",
+"count_permitnum": "1",
+"sum_estprojectcost": "71575"
+},
+{
+"geoid_blgrp": "371830527072",
+"count_permitnum": "4",
+"sum_estprojectcost": "71282"
+},
+{
+"geoid_blgrp": "371830537171",
+"count_permitnum": "4",
+"sum_estprojectcost": "67536"
+},
+{
+"geoid_blgrp": "371830540134",
+"count_permitnum": "3",
+"sum_estprojectcost": "67000"
+},
+{
+"geoid_blgrp": "371830540171",
+"count_permitnum": "9",
+"sum_estprojectcost": "66500"
+},
+{
+"geoid_blgrp": "371830526022",
+"count_permitnum": "1",
+"sum_estprojectcost": "65300"
+},
+{
+"geoid_blgrp": "371830527051",
+"count_permitnum": "2",
+"sum_estprojectcost": "64300"
+},
+{
+"geoid_blgrp": "371830537232",
+"count_permitnum": "1",
+"sum_estprojectcost": "64000"
+},
+{
+"geoid_blgrp": "371830512003",
+"count_permitnum": "1",
+"sum_estprojectcost": "60000"
+},
+{
+"geoid_blgrp": "371830505003",
+"count_permitnum": "2",
+"sum_estprojectcost": "55900"
+},
+{
+"geoid_blgrp": "371830540061",
+"count_permitnum": "3",
+"sum_estprojectcost": "55134"
+},
+{
+"geoid_blgrp": "371830541041",
+"count_permitnum": "1",
+"sum_estprojectcost": "50000"
+},
+{
+"geoid_blgrp": "371830541042",
+"count_permitnum": "2",
+"sum_estprojectcost": "49800"
+},
+{
+"geoid_blgrp": "371830540012",
+"count_permitnum": "2",
+"sum_estprojectcost": "49272"
+},
+{
+"geoid_blgrp": "371830537131",
+"count_permitnum": "2",
+"sum_estprojectcost": "47381"
+},
+{
+"geoid_blgrp": "371830537112",
+"count_permitnum": "3",
+"sum_estprojectcost": "47000"
+},
+{
+"geoid_blgrp": "371830512002",
+"count_permitnum": "2",
+"sum_estprojectcost": "46000"
+},
+{
+"geoid_blgrp": "371830520012",
+"count_permitnum": "3",
+"sum_estprojectcost": "45500"
+},
+{
+"geoid_blgrp": "371830530082",
+"count_permitnum": "3",
+"sum_estprojectcost": "45000"
+},
+{
+"geoid_blgrp": "371830537143",
+"count_permitnum": "3",
+"sum_estprojectcost": "44160"
+},
+{
+"geoid_blgrp": "371830525051",
+"count_permitnum": "4",
+"sum_estprojectcost": "43490"
+},
+{
+"geoid_blgrp": "371830540141",
+"count_permitnum": "1",
+"sum_estprojectcost": "41344"
+},
+{
+"geoid_blgrp": "371830540071",
+"count_permitnum": "2",
+"sum_estprojectcost": "40000"
+},
+{
+"geoid_blgrp": "371830524041",
+"count_permitnum": "4",
+"sum_estprojectcost": "38000"
+},
+{
+"geoid_blgrp": "371830503002",
+"count_permitnum": "2",
+"sum_estprojectcost": "37800"
+},
+{
+"geoid_blgrp": "371830527063",
+"count_permitnum": "1",
+"sum_estprojectcost": "36000"
+},
+{
+"geoid_blgrp": "371830514005",
+"count_permitnum": "2",
+"sum_estprojectcost": "34000"
+},
+{
+"geoid_blgrp": "371830525052",
+"count_permitnum": "3",
+"sum_estprojectcost": "33000"
+},
+{
+"geoid_blgrp": "371830527061",
+"count_permitnum": "5",
+"sum_estprojectcost": "31650"
+},
+{
+"geoid_blgrp": "371830525032",
+"count_permitnum": "2",
+"sum_estprojectcost": "31000"
+},
+{
+"geoid_blgrp": "371830538071",
+"count_permitnum": "2",
+"sum_estprojectcost": "28765"
+},
+{
+"geoid_blgrp": "371830537262",
+"count_permitnum": "1",
+"sum_estprojectcost": "28500"
+},
+{
+"geoid_blgrp": "371830506002",
+"count_permitnum": "6",
+"sum_estprojectcost": "26100"
+},
+{
+"geoid_blgrp": "371830542102",
+"count_permitnum": "1",
+"sum_estprojectcost": "25000"
+},
+{
+"geoid_blgrp": "371830527071",
+"count_permitnum": "1",
+"sum_estprojectcost": "25000"
+},
+{
+"geoid_blgrp": "371830523022",
+"count_permitnum": "1",
+"sum_estprojectcost": "25000"
+},
+{
+"geoid_blgrp": "371830537072",
+"count_permitnum": "1",
+"sum_estprojectcost": "24528"
+},
+{
+"geoid_blgrp": "371830540181",
+"count_permitnum": "2",
+"sum_estprojectcost": "22600"
+},
+{
+"geoid_blgrp": "371830528063",
+"count_permitnum": "1",
+"sum_estprojectcost": "22575"
+},
+{
+"geoid_blgrp": "371830537181",
+"count_permitnum": "1",
+"sum_estprojectcost": "21000"
+},
+{
+"geoid_blgrp": "371830519003",
+"count_permitnum": "2",
+"sum_estprojectcost": "21000"
+},
+{
+"geoid_blgrp": "371830537261",
+"count_permitnum": "2",
+"sum_estprojectcost": "21000"
+},
+{
+"geoid_blgrp": "371830524012",
+"count_permitnum": "1",
+"sum_estprojectcost": "20000"
+},
+{
+"geoid_blgrp": "371830535211",
+"count_permitnum": "1",
+"sum_estprojectcost": "18700"
+},
+{
+"geoid_blgrp": "371830537151",
+"count_permitnum": "3",
+"sum_estprojectcost": "18475"
+},
+{
+"geoid_blgrp": "371830537191",
+"count_permitnum": "2",
+"sum_estprojectcost": "17500"
+},
+{
+"geoid_blgrp": "371830525072",
+"count_permitnum": "3",
+"sum_estprojectcost": "16600"
+},
+{
+"geoid_blgrp": "371830519002",
+"count_permitnum": "3",
+"sum_estprojectcost": "16000"
+},
+{
+"geoid_blgrp": "371830521021",
+"count_permitnum": "1",
+"sum_estprojectcost": "15000"
+},
+{
+"geoid_blgrp": "371830540132",
+"count_permitnum": "1",
+"sum_estprojectcost": "15000"
+},
+{
+"geoid_blgrp": "371830508001",
+"count_permitnum": "2",
+"sum_estprojectcost": "14200"
+},
+{
+"geoid_blgrp": "371830516001",
+"count_permitnum": "1",
+"sum_estprojectcost": "13000"
+},
+{
+"geoid_blgrp": "371830540133",
+"count_permitnum": "1",
+"sum_estprojectcost": "12000"
+},
+{
+"geoid_blgrp": "371830514004",
+"count_permitnum": "1",
+"sum_estprojectcost": "11300"
+},
+{
+"geoid_blgrp": "371830526023",
+"count_permitnum": "1",
+"sum_estprojectcost": "11000"
+},
+{
+"geoid_blgrp": "371830524062",
+"count_permitnum": "2",
+"sum_estprojectcost": "10850"
+},
+{
+"geoid_blgrp": "371830541101",
+"count_permitnum": "1",
+"sum_estprojectcost": "10000"
+},
+{
+"geoid_blgrp": "371830540143",
+"count_permitnum": "2",
+"sum_estprojectcost": "10000"
+},
+{
+"geoid_blgrp": "371830523012",
+"count_permitnum": "1",
+"sum_estprojectcost": "9000"
+},
+{
+"geoid_blgrp": "371830537221",
+"count_permitnum": "1",
+"sum_estprojectcost": "8500"
+},
+{
+"geoid_blgrp": "371830540062",
+"count_permitnum": "1",
+"sum_estprojectcost": "8000"
+},
+{
+"geoid_blgrp": "371830523013",
+"count_permitnum": "1",
+"sum_estprojectcost": "7700"
+},
+{
+"geoid_blgrp": "371830515021",
+"count_permitnum": "2",
+"sum_estprojectcost": "6550"
+},
+{
+"geoid_blgrp": "371830511012",
+"count_permitnum": "1",
+"sum_estprojectcost": "6500"
+},
+{
+"geoid_blgrp": "371830521014",
+"count_permitnum": "1",
+"sum_estprojectcost": "5000"
+},
+{
+"geoid_blgrp": "371830541111",
+"count_permitnum": "1",
+"sum_estprojectcost": "4500"
+},
+{
+"geoid_blgrp": "371830528033",
+"count_permitnum": "1",
+"sum_estprojectcost": "4000"
+},
+{
+"geoid_blgrp": "371830537252",
+"count_permitnum": "1",
+"sum_estprojectcost": "4000"
+},
+{
+"geoid_blgrp": "371830520021",
+"count_permitnum": "1",
+"sum_estprojectcost": "3500"
+},
+{
+"geoid_blgrp": "371830541054",
+"count_permitnum": "1",
+"sum_estprojectcost": "2425"
+},
+{
+"geoid_blgrp": "371830518001",
+"count_permitnum": "1",
+"sum_estprojectcost": "2000"
+},
+{
+"geoid_blgrp": "371830509003",
+"count_permitnum": "1",
+"sum_estprojectcost": "2000"
+},
+{
+"geoid_blgrp": "371830527073",
+"count_permitnum": "1",
+"sum_estprojectcost": "1"
+}
+]
