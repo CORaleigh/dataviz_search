@@ -137,6 +137,17 @@ a[href ^="https://data.raleighnc.gov"][href*="Map"], a[href ^="https://data.rale
 #col2, #col3 { width: 99%; float: none; }
 .gsa-widget { width: 94%; margin-right: auto; margin-left: auto; }
 
+#contentArea .gsa-widget a:before { display: none; }
+
+#contentArea .gsa-widget h1,
+#contentArea .gsa-widget h2,
+#contentArea .gsa-widget h3,
+#contentArea .gsa-widget h4,
+#contentArea .gsa-widget h5,
+#contentArea .gsa-widget h6 {
+	text-shadow: 0 0 0;
+}
+
 /* widget table fixe(s) due to inline table styles from live */
 table.gsa-table td { text-align: left; }
 
@@ -242,7 +253,6 @@ table.gsa-table td { text-align: left; }
 
       function initMap() {
 
-      	// TODO: city of raleigh to wire up dynamic location based on location form
         var currentLocation = {lat: 35.787743, lng: -78.644257};
 
         map = new google.maps.Map(document.getElementById('google-map-container'), {
@@ -279,6 +289,47 @@ table.gsa-table td { text-align: left; }
           infowindow.open(map, this);
         });
       }
+
+
+      $(document).ready(function() {
+			if ("geolocation" in navigator){	           
+           		navigator.geolocation.getCurrentPosition(show_location, show_error, {timeout:1000, enableHighAccuracy: true}); 
+		    } else {
+		    	alert("Browser doesn't support geolocation!");
+		    }
+
+			function show_location(position){
+			    infoWindow = new google.maps.InfoWindow({map: map});
+			    var pos = {lat: position.coords.latitude, lng: position.coords.longitude};
+			    var service = new google.maps.places.PlacesService(map);
+	                service.nearbySearch({
+			          location: pos,
+			          radius: 6000,
+			          type: ['park']
+			        }, callback);
+			    infoWindow.setPosition(pos);
+			    infoWindow.setContent('User Location found.');
+			    map.setCenter(pos);
+			}
+
+			function show_error(error){
+			   switch(error.code) {
+			        case error.PERMISSION_DENIED:
+			            alert("Permission denied by user.");
+			            break;
+			        case error.POSITION_UNAVAILABLE:
+			            alert("Location position unavailable.");
+			            break;
+			        case error.TIMEOUT:
+			            alert("Request timeout.");
+			            break;
+			        case error.UNKNOWN_ERROR:
+			            alert("Unknown error.");
+			            break;
+			    }
+			}
+		});
+
 	</script>
 	<!--
 	This example requires the Places library. Include the libraries=places
@@ -699,6 +750,7 @@ table.gsa-table td { text-align: left; }
 
     <!-- Init Functions -->
     <script src="/js/init.js"></script>
+
 </body>
 </html>
 

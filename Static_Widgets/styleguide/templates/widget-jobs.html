@@ -137,6 +137,17 @@ a[href ^="https://data.raleighnc.gov"][href*="Map"], a[href ^="https://data.rale
 #col2, #col3 { width: 99%; float: none; }
 .gsa-widget { width: 94%; margin-right: auto; margin-left: auto; }
 
+#contentArea .gsa-widget a:before { display: none; }
+
+#contentArea .gsa-widget h1,
+#contentArea .gsa-widget h2,
+#contentArea .gsa-widget h3,
+#contentArea .gsa-widget h4,
+#contentArea .gsa-widget h5,
+#contentArea .gsa-widget h6 {
+	text-shadow: 0 0 0;
+}
+
 /* widget table fixe(s) due to inline table styles from live */
 table.gsa-table td { text-align: left; }
 
@@ -251,7 +262,6 @@ table.gsa-table td { text-align: left; }
 						<th>Dept</th>
 					</tr>
 				</thead>
-				<!-- TODO: default show first 5 rows ... then maybe slideToggle hidden rows with jquery -->
 				<tbody>
 					<tr class="gsa-table__row">
 						<td>
@@ -531,6 +541,7 @@ table.gsa-table td { text-align: left; }
 
     <!-- Init Functions -->
     <script src="/js/init.js"></script>
+
 </body>
 </html>
 

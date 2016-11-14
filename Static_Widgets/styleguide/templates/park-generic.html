@@ -1,6 +1,3 @@
-@@include('../inc/head.html')
-
-
 <div class="gsa-widget">
 	<!-- Widget Header -->
 	<header class="gsa-widget__header">
@@ -24,10 +21,6 @@
 		</div>
 	</header>
 
-
-
-
-
 	<!-- Google Parks Map -->
 	<div class="panel panel--google-map">
 		<div class="panel__content">
@@ -36,105 +29,6 @@
 		<!-- TODO: city of raleigh to wire up dynamic url based on location/search term -->
 		<a href="https://www.google.com/maps/search/park+near+Raleigh,+NC" target="_blank" class="button button--overlay button--primary">See Map</a>
 	</div>
-
-	<script>
-
-      var map;
-      var infowindow;
-
-      function initMap() {
-
-        var currentLocation = {lat: 35.787743, lng: -78.644257};
-
-        map = new google.maps.Map(document.getElementById('google-map-container'), {
-          center: currentLocation,
-          zoom: 12
-        });
-
-        infowindow = new google.maps.InfoWindow();
-        var service = new google.maps.places.PlacesService(map);
-        service.nearbySearch({
-          location: currentLocation,
-          radius: 6000,
-          type: ['park']
-        }, callback);
-      }
-
-      function callback(results, status) {
-        if (status === google.maps.places.PlacesServiceStatus.OK) {
-          for (var i = 0; i < results.length; i++) {
-            createMarker(results[i]);
-          }
-        }
-      }
-
-      function createMarker(place) {
-        var placeLoc = place.geometry.location;
-        var marker = new google.maps.Marker({
-          map: map,
-          position: place.geometry.location
-        });
-
-        google.maps.event.addListener(marker, 'click', function() {
-          infowindow.setContent(place.name);
-          infowindow.open(map, this);
-        });
-      }
-
-
-      $(document).ready(function() {
-			if ("geolocation" in navigator){	           
-           		navigator.geolocation.getCurrentPosition(show_location, show_error, {timeout:1000, enableHighAccuracy: true}); 
-		    } else {
-		    	alert("Browser doesn't support geolocation!");
-		    }
-
-			function show_location(position){
-			    infoWindow = new google.maps.InfoWindow({map: map});
-			    var pos = {lat: position.coords.latitude, lng: position.coords.longitude};
-			    var service = new google.maps.places.PlacesService(map);
-	                service.nearbySearch({
-			          location: pos,
-			          radius: 6000,
-			          type: ['park']
-			        }, callback);
-			    infoWindow.setPosition(pos);
-			    infoWindow.setContent('User Location found.');
-			    map.setCenter(pos);
-			}
-
-			function show_error(error){
-			   switch(error.code) {
-			        case error.PERMISSION_DENIED:
-			            alert("Permission denied by user.");
-			            break;
-			        case error.POSITION_UNAVAILABLE:
-			            alert("Location position unavailable.");
-			            break;
-			        case error.TIMEOUT:
-			            alert("Request timeout.");
-			            break;
-			        case error.UNKNOWN_ERROR:
-			            alert("Unknown error.");
-			            break;
-			    }
-			}
-		});
-
-	</script>
-	<!--
-	This example requires the Places library. Include the libraries=places
-	parameter when you first load the API. For example:
-	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
-
-	Key in script below is restricted to local & dev server IP addresses. Visit https://developers.google.com/maps/web/ to set up a key or manage existing key set up in your account.
-	-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfRKY84n9eHnjRRjEITTT1_gb-RaOQtIg&libraries=places&callback=initMap" async defer></script>
-
-
-
-
-
 
 	<!-- Parks Near Me With: -->
 	<div class="panel">
@@ -196,10 +90,6 @@
 		</div>
 	</div>
 
-
-
-
-
 	<!-- Events -->
 	<div class="panel">
 		<header class="panel__header">
@@ -257,9 +147,6 @@
 			</div>
 		</div>
 	</div>
-
-
-
 
 	<!-- Classes -->
 	<div class="panel">
@@ -327,9 +214,6 @@
 		</div>
 	</div>
 
-
-
-
 	<!-- Weather -->
 	<div class="panel">
 		<header class="panel__header">
@@ -391,10 +275,6 @@
 		</div>
 	</div>
 
-
-
-
-
 	<!-- Park CTA -->
 	<div class="panel">
 		<a href="#" class="panel__content cta-parks">
@@ -407,7 +287,3 @@
 		</a>
 	</div>
 </div>
-
-
-@@include('../inc/footer.html')
-	
