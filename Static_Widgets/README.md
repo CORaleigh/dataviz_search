@@ -40,11 +40,10 @@ For continuous watch command execution:
 ## Knyle Style Sheets
 source in 'stylequide.tpl' directory and output in 'styleguide' directory. For more information visit http://warpspire.com/kss/.
 
-## Static Widgets
-Source in 'templates/src' and 'templates/inc' directories. 
+## Compiling the Static Widgets
+Source in ['templates/src'](https://github.com/CORaleigh/dataviz_search/tree/master/Static_Widgets/templates/src) and ['templates/inc'](https://github.com/CORaleigh/dataviz_search/tree/master/Static_Widgets/templates/inc) directories. 
 Output during 'gulp watch' task goes to ['stylequide/templates'](https://github.com/CORaleigh/dataviz_search/tree/master/Static_Widgets/styleguide/templates) directory. 
-
-All html pages with 'widget-' in name are the original wigets created with all needed CSS/JS need for layout and functionality. Pages without 'widget-' are plain markup with no css/js as requested by City of Raleigh developers.
+      In this output directory, all the html pages with **'widget-'** in name are the original widgets created with all needed CSS/JS need for layout and functionality. Pages without 'widget-' are plain markup with no css/js as requested by City of Raleigh developers.
 
 gulpfile.js - contains tasks to complete above functionality
 
