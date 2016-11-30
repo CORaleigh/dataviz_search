@@ -41,9 +41,12 @@ For continuous watch command execution:
 source in 'stylequide.tpl' directory and output in 'styleguide' directory. For more information visit http://warpspire.com/kss/.
 
 ## Static Widgets
- source in 'templates/src' and 'templates/inc' directories. Output during 'gulp watch' task goes to 'stylequide/templates' directory. All html pages with 'widget-' in name are the original wigets created with all needed CSS/JS need for layout and functionality. Pages without 'widget-' are plain markup with no css/js as requested by City of Raleigh developers.
+Source in 'templates/src' and 'templates/inc' directories. 
+Output during 'gulp watch' task goes to ['stylequide/templates'](https://github.com/CORaleigh/dataviz_search/tree/master/Static_Widgets/styleguide/templates) directory. 
 
-gulpfile.j - contains tasks to complete above functionality
+All html pages with 'widget-' in name are the original wigets created with all needed CSS/JS need for layout and functionality. Pages without 'widget-' are plain markup with no css/js as requested by City of Raleigh developers.
+
+gulpfile.js - contains tasks to complete above functionality
 
 js/init.js - global init functions for selectboxit, google charts, toggling content and fix for google chart alt attribute accessabiltiy issue.
 
