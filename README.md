@@ -5,19 +5,20 @@ Project is simple in concept. Match open data up with visualizations designed to
 
 As part of the [Knight Foundation Prototype](http://www.knightfoundation.org/grants/201551998/) project, we are going to apply human-centered designs to the most common search stories to inform our visualizations. 
 
-**v1 Technology Stack**
+**City of Raleigh v1 Technology Stack**
 
-* Google Search Appliance - [OneBox Module](https://www.google.com/support/enterprise/static/gsa/docs/admin/72/gsa_doc_set/oneboxguide/oneboxguide.html) - XLS Templates (Front End for Search Results and OneBox Module Specific)
-* Socrata [Data Portal](https://data.raleighnc.gov/) - Use APIs for source of data
+* Google Search Appliance - [OneBox Module](https://www.google.com/support/enterprise/static/gsa/docs/admin/72/gsa_doc_set/oneboxguide/oneboxguide.html) - XSLT Templates (Front End for Search Results and OneBox Module Specific)
+* CSS / HTML5 - for styling, mobile responsiveness
+* JavaScript - Uses Google Charts libraries and APIs from Socrata [Data Portal](https://data.raleighnc.gov/) to connect data to widgets
 * Red Hat [JBoss Fuse](http://developers.redhat.com/products/fuse/overview/?referrer=jbd) to translate data from Socrata to XML template as a URL source for the Google OneBox External Provider to improve load times
 * [Alfresc0 CMS](https://www.alfresco.com/)
-* Visualization Widgets (TBD)
 
 Official Partner(s):
-* Knight Foundation
-* AtlanticBT
+* Knight Foundation - Prototype Grant Funder ($35,000)
+* AtlanticBT - User Research, Design and Front End Development Vendor
 
-City Partners
+Peer City Partners:
+These cities provided google analytics for their search results to validate high value use cases for structured responses and visualizations.
 * Chatannooga, TN
 * Nashville, TN
 * Virginia Beach, VA
